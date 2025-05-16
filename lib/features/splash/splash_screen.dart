@@ -57,7 +57,7 @@ class _SplashScreenState extends State<SplashScreen>
             mainAxisSize: MainAxisSize.min,
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: [Image.asset("assets/images/Arabic.png")],
+            children: [Image.asset("assets/images/logos.jpg")],
           ),
         ),
       ),

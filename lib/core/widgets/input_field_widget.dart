@@ -29,7 +29,7 @@ class InputFieldWidget extends StatelessWidget {
         children: [
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 8.0.w),
-            child: Text(labelText, style: AppTextStyles.poppins14Regular),
+            child: Text(labelText, style: AppTextStyles.poppinsRegular16),
           ),
           Container(
             decoration: BoxDecoration(

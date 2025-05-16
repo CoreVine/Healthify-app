@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		Qym74aWrJAIY18snhivHpmJ8i2g=
+		Ceq6Rf0Cc4SEl3iCHTC97SGKiRs=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,19 +54,19 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		aWrOCEn/oYhSu7m9/zjmXCHZhyc=
+		GWiKcgy7hbeD8kH/oxPwZKQ5ReE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		NYkmA0NQzDpXxAOlN5sf4ob9H4c=
+		vpiNU28Id93dMbFnrzo0Y3uIZNY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		0w+B6ujFUfkf5Xffgw9gS+M/Hgg=
+		5m0fMJlAVailJTyGr36tJEtKwQ8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
-		5LlfomvZuttYNdr3oEYxJc4UNic=
+		6Okl4sYFbZ4D/C2xszc/sZN38A8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
@@ -76,101 +76,149 @@
 		<data>
 		re4p7E8rPLLsN+wzaPN/+AVpXTY=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Black.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Black.ttf</key>
 		<data>
 		ZF4ExTxrWzW85lSoEevOFq+KpyE=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-BlackItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-BlackItalic.ttf</key>
 		<data>
 		vk7yqsd3WksBecDs/ObOqPd4P2M=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Bold.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Bold.ttf</key>
 		<data>
 		h1zwzs1ke88i551jPYaMGx7Jjfo=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-BoldItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-BoldItalic.ttf</key>
 		<data>
 		beiVLKCNJ+539XNH0s70tOJqp48=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ExtraBold.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ExtraBold.ttf</key>
 		<data>
 		S1wHUPBzq9V2QToImNO5Wtrxmcg=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ExtraBoldItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ExtraBoldItalic.ttf</key>
 		<data>
 		lNPuOs29AON6cVol8rUjdma1uKM=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ExtraLight.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ExtraLight.ttf</key>
 		<data>
 		ha9lgqfmFVkXxgX50/7WjAKyOwY=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ExtraLightItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ExtraLightItalic.ttf</key>
 		<data>
 		b6BBj5EDJoDS2P5IQwCfLID6ph0=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Italic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Italic.ttf</key>
 		<data>
 		4r/NVgFsPJFSIe8cX8Ghewd265E=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Light.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Light.ttf</key>
 		<data>
 		4kepIVjhEvi/e2OMjZU4HWawDbs=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-LightItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-LightItalic.ttf</key>
 		<data>
 		92ECs2HnBXUag7eyL+lU2vHyfdQ=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Medium.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Medium.ttf</key>
 		<data>
 		KD8htE772/J2uoAr4tlJo2u8QjM=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-MediumItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-MediumItalic.ttf</key>
 		<data>
 		tZLGL9+IxAz9DwMbumQjsdRDBHI=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Regular.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Regular.ttf</key>
 		<data>
 		/dMALn2BTuR8HBuEh8csa7s6LQA=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-SemiBold.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-SemiBold.ttf</key>
 		<data>
 		ikrOk5LQa8t/jqL1FpsH5MODqQ0=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-SemiBoldItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-SemiBoldItalic.ttf</key>
 		<data>
 		DIvtCllCsjiNNrEcEVaF2fAXALA=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Thin.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Thin.ttf</key>
 		<data>
 		CbpNzVUJyAhb+IxmXcxRy9/O0ns=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ThinItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ThinItalic.ttf</key>
 		<data>
 		+4/MyiFVDnETX5K7r4ouihLJBGU=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Black.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Black.ttf</key>
 		<data>
-		6WR0iVRU9Z7E89ETTJdZ9iVdoEA=
+		0WeEiajVZF8WSG7FLXe2Uf8L8yc=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Bold.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-BlackItalic.ttf</key>
 		<data>
-		eXj+NcCRzOHRKwWZBJlRAFm2SmI=
+		0eFBZsgiYUPuoXMNkvUYzEfQNGI=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-ExtraLight.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Bold.ttf</key>
 		<data>
-		lJ/WpNmSMADI35UxGWa2yYi7Qzo=
+		UIw13ugYrdzmzG0ftuQvA52lp88=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Light.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-BoldItalic.ttf</key>
 		<data>
-		GHWnArdDKNAxXzCBu9tKT0G+GD4=
+		A0QL+nEXKqpri6bahqxg1me1XB4=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Medium.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ExtraBold.ttf</key>
 		<data>
-		4yB7g6qSIdkbpzLVBXwk1w7rPv4=
+		Pb/XG2+8+9jn7oqN0DPcWqrWMkk=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Regular.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ExtraBoldItalic.ttf</key>
 		<data>
-		ETnlXXuJCazaG58/kOMPd3TpP+8=
+		DBoHCdl3LSBBnBtYaNGWMcY4YfY=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ExtraLight.ttf</key>
+		<data>
+		31VuZHMuXCcjSeE8tfh1kaGud5s=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ExtraLightItalic.ttf</key>
+		<data>
+		GwtgLJekef7YmQDGSguSQtRZ7Rk=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Italic.ttf</key>
+		<data>
+		VVNOdxu7trZJdGgCyr/euSK56zo=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Light.ttf</key>
+		<data>
+		MYtEwKMoSPeL8R1PvzNV0AZHp5Y=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-LightItalic.ttf</key>
+		<data>
+		VlzVSrVP36G+fGL851BI1+8HN+Y=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Medium.ttf</key>
+		<data>
+		+lGSID+F3bZnV54b3ybxIJi7hzs=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-MediumItalic.ttf</key>
+		<data>
+		3rwVRjFN1WVUA99pZYeNP43EGJc=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Regular.ttf</key>
+		<data>
+		O/9RQ2qn65ldhM/Fksxj4TFrtAA=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-SemiBold.ttf</key>
+		<data>
+		nKE5aE/pAsgxDdgpkWSDdqyYONs=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-SemiBoldItalic.ttf</key>
+		<data>
+		IaFMjDUiXL1xSvBQCG07F6GuXfg=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Thin.ttf</key>
+		<data>
+		jgmKIH0qzoPoc9Ardqy6kD2Bn3Q=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ThinItalic.ttf</key>
+		<data>
+		sgmJtN0RaChtyh8kGT/nj1HmD2s=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/Ellipse%202.svg</key>
 		<data>
@@ -256,18 +304,6 @@
 		<data>
 		jmrZocz58AacIEx0d2QBW5apF6Q=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/05dbafde-b769-43ad-909e-a3ab5f6dd7ea%201.png</key>
-		<data>
-		xHbBM7e2uHiEe4inaGlu865ySOU=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/07191691-6cdd-471c-9f1c-83d99674c8c2%201.png</key>
-		<data>
-		a2H/6M7J40KGg9u60dGiJixqaI8=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/2f70c63e-0cdd-4881-ab8f-6833f369b701%201.png</key>
-		<data>
-		QkXdTDa6hMhMZ75PDk9aetM3FU4=
-		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/Diet.jpg</key>
 		<data>
 		ljM1qsSGs1o9jOnrs8MDjhcfr+g=
@@ -340,17 +376,13 @@
 		<data>
 		m1QOqQ90hulhaGJrh1AOx8y/tXY=
 		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/b4adda4f-071b-40db-a118-619f2c5444aa%201.png</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/beef.png</key>
 		<data>
-		WIhqLJilOBrR2robxKt6U1qrOWQ=
+		a2H/6M7J40KGg9u60dGiJixqaI8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/bro.svg</key>
 		<data>
 		H90ojNP8YJwFXUI/LSdTcoJodBU=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/c9bfae04-3ba6-44c1-9634-51eaf8795101%201.png</key>
-		<data>
-		JuhqWIjNfYAxm6vf5qE/7d6zh30=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/check.svg</key>
 		<data>
@@ -359,10 +391,6 @@
 		<key>Frameworks/App.framework/flutter_assets/assets/images/cuate.svg</key>
 		<data>
 		ZCwUxK/1kiLZzrLmW/1h+/I8nfI=
-		</data>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/eaca1502-ad33-4b9e-88a8-888e25aff72f%201.png</key>
-		<data>
-		axu99lE2etZtLpdFArusl5A/wGg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/empty.svg</key>
 		<data>
@@ -379,6 +407,22 @@
 		<key>Frameworks/App.framework/flutter_assets/assets/images/kale%201.png</key>
 		<data>
 		Xgaqqp1wLjSXt2Azkg5ev3cxGv8=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/logos.jpg</key>
+		<data>
+		IHLA3qypPxsTjkGuGRzLEpTM39k=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/meal.png</key>
+		<data>
+		xHbBM7e2uHiEe4inaGlu865ySOU=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/meat.png</key>
+		<data>
+		JuhqWIjNfYAxm6vf5qE/7d6zh30=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/meat2.png</key>
+		<data>
+		axu99lE2etZtLpdFArusl5A/wGg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/pngegg%20(1)%201.png</key>
 		<data>
@@ -559,6 +603,14 @@
 		<key>Frameworks/App.framework/flutter_assets/assets/images/rafiki.svg</key>
 		<data>
 		Vi6dWKaJivwTcCe1y/Z1zFbEMsY=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/salad.png</key>
+		<data>
+		QkXdTDa6hMhMZ75PDk9aetM3FU4=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/seafood.png</key>
+		<data>
+		WIhqLJilOBrR2robxKt6U1qrOWQ=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/sliced-roasted-turkey-breast-herbs-isolated-transparent-background-png-you-can-download-file-high-quality-ai-374078166%201.png</key>
 		<data>
@@ -993,7 +1045,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cieNb1xIrMeKZ4DEliLTzFDwqJ1X5U7HKgjHQrnglS8=
+			ZRhdmrkJfO2JJ7NKoZoSDJ4oKh27CmnDMpkRnop8W6c=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -1007,28 +1059,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z1bvoDRi+ygasg2ikj/Yc9omeSOg4Z2KJ+NhAA1TYnA=
+			dAiGlbQwXQJ7HXw+UcWp+mJutnwBgX0o8LtWjMfnfTE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GeiDmfHbHNNt8IobdsrRQSoshh7T/5aaLQyHZI/8kPk=
+			sO3+eonWX+gTMzRYoH4F8xkg7Wro/vZ3Y9UWN0xC7Cg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Jey1sAgX/Hh8JJLsPq/81b9mvfnIU9T0dHLk627yww=
+			6MuD7QHbPUdTvxDviY1DLQEdCXBO5sFb8PPKctoMUQM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MBnHmz9PFUASNY+6mgCOpj8oP1VocDZhHtgBdrScOwo=
+			rEnTgoUssPwI0M0t279EzX2lbQBYFU8Yu3oTl8/0BPs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
@@ -1045,172 +1097,256 @@
 			lUijHkoEgTXB2U+Rkyi/tirix7s8q5ZVfHlB2ql3dss=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Black.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Black.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			KR5DiKQ2zwwNUyzkc1pMo2vSKGkSsFHqQj1cODvgbNc=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-BlackItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-BlackItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			pePjHp3Gh4Jp/dqKlo+MAhK+759+9gKLbR4CKTMW230=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Bold.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Bold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			chlUfuJTNMusD+SzrPC/Yx5I67YixxrwOO2qplLGCHU=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-BoldItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-BoldItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			nU2fPCwonq7EA2YOwhW9xF5itJ+XiAdxS/wxynkWyP4=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ExtraBold.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ExtraBold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			lKIV+I+96Qmcs70UMbgUKromrzb4dx7/7FapS8Oq0f0=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ExtraBoldItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ExtraBoldItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			u6mG4RZpBmD3DT67GKdNjSyOr82mwoyP/EMGqh4rkeQ=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ExtraLight.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ExtraLight.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			YMS7G48nLwrEcCuWLMRuWOiFplYkR5vhwGRsnjfZzmI=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ExtraLightItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ExtraLightItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			BUGPTTM/Jd2vNZra85snd+ZNrQ+Dw/pFAtGT0K0Zqbc=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Italic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Italic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			MiXOxqAYMQSX6p7hFqpDsqgzRk/tYVbc65o6RCS7hhM=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Light.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Light.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ZH8BTTaCLvfgQT/7tlWYrgy1f7eY5jXGORLJPZTrNWo=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-LightItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-LightItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			bQCqVTHIuLoJNN55JZhcZjbJn7yJtMn3lin7SpBnZU8=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Medium.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Medium.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			jZCYg96BNE4PvP7zDpMYcuktmu7N+Fttz24LKMB46Y4=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-MediumItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-MediumItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			RJ9r2Qf+Kdvf1e8JkL27f9gA76dIqD97dSncuU95lVs=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Regular.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Regular.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			cH/cXIurV6kAYcao7Xtw1f+4L8gQ6ZTnn5C6zokMJVo=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-SemiBold.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-SemiBold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			JIwCRLNQ7GiICZaqa+bXeWJ0tJmS1fy77+JRkGqk6jY=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-SemiBoldItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-SemiBoldItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			dLMcvCnckMLWMOd2c+e29xT/m7AeXUJGcLxhyoW2CTo=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-Thin.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-Thin.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			lYdfnvDRLVy91khSkzpXgCHIEM7CR/dWQgfgRs9scok=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Poppins-ThinItalic.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/poppins/Poppins-ThinItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			BDImsOGHJjq1TePpcbZjp35Sw4V8uyNchBA4jbbSjeg=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Black.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Black.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yrLGCIPRT8Yjmvkzl8AidvfIwBUn5SY/NAlGcN3Z80Y=
+			WcxIyWBHuzCyULsofwaQbkaOSfkoMr1HNEfROmAq7mE=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Bold.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-BlackItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+StpymIRoI9PqBdv18jnvJuXOXhq4qc5DdqexsB2l54=
+			VOyeQDAW2K3W+EN3lS+73oVKsQK5wmVrjMye757uhKM=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-ExtraLight.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Bold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yu/TDoxeDW40RmnjvLAKckH+s3ro2GWf9xRilzwRPHE=
+			3rmQ4kGVThr4fGAz1Ap2zw9I4NESVBeUUmBRrEo+4sg=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Light.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-BoldItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4zu87lRYVOb6wiq+sEW4l3x+cjpm0DjbxOfrtICSRTA=
+			hIAnQCSgwyXHoP4RgUxHwFeiJk2cJGk7Lam9VsDF4dA=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Medium.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ExtraBold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kIJ2wMOTbAh/f6kS8aOwRAhIZvQkjUEbNL1SmHT1j4M=
+			8Ask3v/PVeiI+alCgxOnYazCxNZd9H2AoJeoXnqC7Zw=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/fonts/Tajawal-Regular.ttf</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ExtraBoldItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kQ5oVw0klhr3tmjLkPp/LBJ448fDVHeeZojwK1smURE=
+			SEVAgmawfv1DRYiMHbozBrKWPbJcpcjR7cnnCmOy7Jk=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ExtraLight.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			otiMCT/Pq33MkGpmXlvLTDsThYYy+j/SxDgN/Pmv89s=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ExtraLightItalic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IxpvKS7TfDQXIJI0Itcr1WbBsVF+mIXHjqZl/2u6lEw=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Italic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Wi8YvdvjrAfxTTiBfR/SLfTo47dPZh9657KcyBQAkrw=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Light.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Sy6CS+q2PEOMKEm9bh1PZwjLpaXF89vo1a9+loLtk3M=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-LightItalic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ku59qH5rXziVSZFODrLM5OyPXAkJR3Q5V3ZENgQ9d9k=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YW7uP5tg7AGW4JcA68pIo3XaMyPE1YcuK5ghcJaayQ4=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-MediumItalic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			23nVREHUB2E9WDFF8GN6XmFPyS11+ia9ojpPvy/Vlsg=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			29KFtRjjmIMvb0pzYQnDVc4lpJVGv85BurJWye9+Vus=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V7QMONbMZfB8I+wDGbgpBP5l4F3EC1oTrGChj7WUO/E=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-SemiBoldItalic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZKfUxK/z/WpW5328TI8s/s16tAke2mNg8cGpLNGZS2I=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-Thin.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BlX4Q1a3FouzQs9arcVgUk2vjiYJEVn6+S2usz/Buw0=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/roboto/Roboto-ThinItalic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QARYw7lVjJ6EU9JyjT9oTAU8qXc/uiXqFePYiSkLSRw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/Ellipse%202.svg</key>
@@ -1360,27 +1496,6 @@
 			HN6KLxVBfCQ2A6JfRpwX9wNxp8fHZ05BMdJOQTxyS6w=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/05dbafde-b769-43ad-909e-a3ab5f6dd7ea%201.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Bxzrdje4yUO+vXlSZSnzOJkkFbLLNtihJO+D9QXozz0=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/07191691-6cdd-471c-9f1c-83d99674c8c2%201.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rHJdJ+UBUIh3om2HDVa+TcbuJHxITYGek9aICmUwbQU=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/2f70c63e-0cdd-4881-ab8f-6833f369b701%201.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oIVNoOEnfVXagv3L6aabuFqro3mtY+AuyZcWwKI0lA0=
-			</data>
-		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/Diet.jpg</key>
 		<dict>
 			<key>hash2</key>
@@ -1507,11 +1622,11 @@
 			fsZLQGdq8gOl3oxnN2dz35Aq7mkVlUh/Sw0sk2P+LEQ=
 			</data>
 		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/b4adda4f-071b-40db-a118-619f2c5444aa%201.png</key>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/beef.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Zy6uu0L9P9zx6/DkDlCt5p/xtPW7gVs/77I25i7Hl0=
+			rHJdJ+UBUIh3om2HDVa+TcbuJHxITYGek9aICmUwbQU=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/bro.svg</key>
@@ -1519,13 +1634,6 @@
 			<key>hash2</key>
 			<data>
 			oreml15VWOb9BVNPPEsGR59n4V+58ydNwuLMMrXBGQs=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/c9bfae04-3ba6-44c1-9634-51eaf8795101%201.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			16rx1apiCXrQLiIYJlklgh/b90WOsrBAwJwXx0MT4Ek=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/check.svg</key>
@@ -1540,13 +1648,6 @@
 			<key>hash2</key>
 			<data>
 			eHbLPaI4Nwq3PqjWR1/OTyvM/T+UriZXpxNBr9TfERs=
-			</data>
-		</dict>
-		<key>Frameworks/App.framework/flutter_assets/assets/images/eaca1502-ad33-4b9e-88a8-888e25aff72f%201.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			i+G9xAAQvCy3/vNqUzrXNVd7sbzidT89pgrEiHo1W7E=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/empty.svg</key>
@@ -1575,6 +1676,34 @@
 			<key>hash2</key>
 			<data>
 			g5PGMf9TTWbKLVnv1E/5LGHjiBAJJFHwLTD9o5R/Rbg=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/logos.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IkQsWoTlP0nbRcu39bPYFSfda5S42UqtmExKx2wsSkQ=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/meal.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bxzrdje4yUO+vXlSZSnzOJkkFbLLNtihJO+D9QXozz0=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/meat.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			16rx1apiCXrQLiIYJlklgh/b90WOsrBAwJwXx0MT4Ek=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/meat2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i+G9xAAQvCy3/vNqUzrXNVd7sbzidT89pgrEiHo1W7E=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/pngegg%20(1)%201.png</key>
@@ -1890,6 +2019,20 @@
 			<key>hash2</key>
 			<data>
 			fR0KG2og2TrZI3b1q6CQkoFB+7vkBHfuegk9oSw+PPQ=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/salad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oIVNoOEnfVXagv3L6aabuFqro3mtY+AuyZcWwKI0lA0=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/seafood.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8Zy6uu0L9P9zx6/DkDlCt5p/xtPW7gVs/77I25i7Hl0=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/sliced-roasted-turkey-breast-herbs-isolated-transparent-background-png-you-can-download-file-high-quality-ai-374078166%201.png</key>

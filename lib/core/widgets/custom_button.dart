@@ -34,11 +34,11 @@ class CustomButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
-          backgroundColor: bgColor ?? AppColors.primary,
+          backgroundColor: bgColor ?? AppColors.background,
           padding: EdgeInsets.symmetric(
             horizontal:
-                xPadding != null ? xPadding!.w : AppPaddings.gapPadding8,
-            vertical: yPadding != null ? yPadding!.h : AppPaddings.gapPadding8,
+                xPadding != null ? xPadding!.w : AppPaddings.gap8,
+            vertical: yPadding != null ? yPadding!.h : AppPaddings.gap8,
           ),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30.r),
@@ -47,7 +47,7 @@ class CustomButton extends StatelessWidget {
         ),
         child:
             isLoading
-                ? const Center(
+                ?  Center(
                   child: SizedBox(
                     width: 24,
                     height: 24,
@@ -61,9 +61,7 @@ class CustomButton extends StatelessWidget {
                   text,
                   style:
                       textStyle ??
-                      AppTextStyles.poppins16Regular.copyWith(
-                        color: AppColors.background,
-                      ),
+                      AppTextStyles.poppinsRegular16
                 ),
       ),
     );
