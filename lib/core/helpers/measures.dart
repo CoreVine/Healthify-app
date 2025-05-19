@@ -19,6 +19,26 @@ class AppMeasures {
   static const double gap72 = 72;
   static const double gap96 = 96;
 
+  // Border Radius Values
+  static const double borderRadius2 = 2.0;
+  static const double borderRadius4 = 4.0;
+  static const double borderRadius8 = 8.0;
+  static const double borderRadius12 = 12.0;
+  static const double borderRadius16 = 16.0;
+  static const double borderRadius20 = 20.0;
+  static const double borderRadius24 = 24.0;
+  static const double borderRadius32 = 32.0;
+
+  // Border Radius Getters
+  static BorderRadius get radius2 => BorderRadius.circular(borderRadius2);
+  static BorderRadius get radius4 => BorderRadius.circular(borderRadius4);
+  static BorderRadius get radius8 => BorderRadius.circular(borderRadius8);
+  static BorderRadius get radius12 => BorderRadius.circular(borderRadius12);
+  static BorderRadius get radius16 => BorderRadius.circular(borderRadius16);
+  static BorderRadius get radius20 => BorderRadius.circular(borderRadius20);
+  static BorderRadius get radius24 => BorderRadius.circular(borderRadius24);
+  static BorderRadius get radius32 => BorderRadius.circular(borderRadius32);
+
   // Padding Values (for spacing within widgets)
   static const double padding4 = 4.0;
   static const double padding8 = 8.0;

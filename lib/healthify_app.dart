@@ -31,7 +31,7 @@ class HealthifyApp extends StatelessWidget {
                 GlobalCupertinoLocalizations.delegate,
               ],
               supportedLocales: S.delegate.supportedLocales,
-              title: 'Tride app',
+              title: 'Healthify',
               theme: ThemeData(
                 primaryColor: AppColors.main,
                 colorScheme: ColorScheme.fromSeed(seedColor: AppColors.main),

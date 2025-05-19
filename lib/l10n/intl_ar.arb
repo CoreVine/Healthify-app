@@ -1,6 +1,20 @@
 {
-  "welcome_message": "مرحبًا بكم في Healthify!",
+  "welcome_message": "مرحبًا بك في Healthify!",
   "login": "تسجيل الدخول",
-  "register": "تسجيل",
-  "onboarding": "التمهيد"
+  "register": "إنشاء حساب",
+  "onboarding": "الترحيب والإعداد",
+  "subscribe_to_premium": "اشترك في الباقة المميزة",
+  "annual": "سنوي",
+  "monthly": "شهري",
+  "billed_monthly": "يُحاسب شهريًا",
+  "billed_annually": "يُحاسب سنويًا",
+  "daily_followup_support": "متابعة يومية ودعم عبر واتساب أو داخل التطبيق.",
+  "daily_workout_plans": "خطط تمارين يومية مع النظام الغذائي.",
+  "personalized_diet_plan": "نظام غذائي مخصص بالكامل.",
+  "monthly_price": "{price} جنيه/شهر",
+  "annual_price": "{price} جنيه/سنة",
+  "annual_price_with_discount": "{price} جنيه بدلًا من {original_price}",
+  "monthly_price_with_discount": "{price} جنيه بدلًا من {original_price}",
+  "save_discount": "وفّر {discount}%",
+  "premium_plan": "الباقة المميزة"
 }

@@ -2,5 +2,19 @@
   "welcome_message": "Welcome to Healthify!",
   "login": "Login",
   "register": "Register",
-  "onboarding": "Onboarding"
+  "onboarding": "Onboarding",
+  "subscribe_to_premium": "Subscribe to Premium",
+  "annual": "Annual",
+  "monthly": "Monthly",
+  "billed_monthly": "Billed Monthly",
+  "billed_annually": "Billed Annually",
+  "daily_followup_support": "Daily follow-up and support via WhatsApp or inside the app.",
+  "daily_workout_plans": "Daily workout plans along with the diet.",
+  "personalized_diet_plan": "Full personalized diet plan.",
+  "monthly_price": "{price} EGP/month",
+  "annual_price": "{price} EGP/year",
+  "annual_price_with_discount": "{price} EGP instead of {original_price}",
+  "monthly_price_with_discount": "{price} EGP instead of {original_price}",
+  "save_discount": "SAVE {discount}%",
+  "premium_plan": "Premium Plan"
 }

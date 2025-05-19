@@ -4,6 +4,7 @@ import 'package:healthify_app/features/auth/presentation/pages/login_screen.dart
 import 'package:healthify_app/features/auth/presentation/pages/register_screen.dart';
 import 'package:healthify_app/features/home/presentation/pages/home_screen.dart';
 import 'package:healthify_app/features/onBoarding/presentation/pages/onboarding_screen.dart';
+import 'package:healthify_app/features/subscription/presentation/pages/subscription_screen.dart';
 
 class AppRouter {
   static Route? generateRoute(RouteSettings settings) {
@@ -18,6 +19,8 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const RegisterScreen());
       case Routes.homeScreen:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
+      case Routes.subscriptionScreen:
+        return MaterialPageRoute(builder: (_) => const SubscriptionScreen());
 
       // case Routes.loginScreen:
       //   return MaterialPageRoute(builder: (_) => const LoginScreen());

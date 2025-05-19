@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'measures.dart';
+import '../helpers/measures.dart';
 
 extension SpacingExtensions on Widget {
   Widget get smallVerticalSpacer => const SizedBox(height: AppMeasures.small);

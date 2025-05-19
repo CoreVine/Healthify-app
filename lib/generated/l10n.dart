@@ -79,6 +79,136 @@ class S {
   String get onboarding {
     return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
   }
+
+  /// `Subscribe to Premium`
+  String get subscribe_to_premium {
+    return Intl.message(
+      'Subscribe to Premium',
+      name: 'subscribe_to_premium',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Annual`
+  String get annual {
+    return Intl.message('Annual', name: 'annual', desc: '', args: []);
+  }
+
+  /// `Monthly`
+  String get monthly {
+    return Intl.message('Monthly', name: 'monthly', desc: '', args: []);
+  }
+
+  /// `Billed Monthly`
+  String get billed_monthly {
+    return Intl.message(
+      'Billed Monthly',
+      name: 'billed_monthly',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Billed Annually`
+  String get billed_annually {
+    return Intl.message(
+      'Billed Annually',
+      name: 'billed_annually',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Daily follow-up and support via WhatsApp or inside the app.`
+  String get daily_followup_support {
+    return Intl.message(
+      'Daily follow-up and support via WhatsApp or inside the app.',
+      name: 'daily_followup_support',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Daily workout plans along with the diet.`
+  String get daily_workout_plans {
+    return Intl.message(
+      'Daily workout plans along with the diet.',
+      name: 'daily_workout_plans',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full personalized diet plan.`
+  String get personalized_diet_plan {
+    return Intl.message(
+      'Full personalized diet plan.',
+      name: 'personalized_diet_plan',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `{price} EGP/month`
+  String monthly_price(Object price) {
+    return Intl.message(
+      '$price EGP/month',
+      name: 'monthly_price',
+      desc: '',
+      args: [price],
+    );
+  }
+
+  /// `{price} EGP/year`
+  String annual_price(Object price) {
+    return Intl.message(
+      '$price EGP/year',
+      name: 'annual_price',
+      desc: '',
+      args: [price],
+    );
+  }
+
+  /// `{price} EGP instead of {original_price}`
+  String annual_price_with_discount(Object price, Object original_price) {
+    return Intl.message(
+      '$price EGP instead of $original_price',
+      name: 'annual_price_with_discount',
+      desc: '',
+      args: [price, original_price],
+    );
+  }
+
+  /// `{price} EGP instead of {original_price}`
+  String monthly_price_with_discount(Object price, Object original_price) {
+    return Intl.message(
+      '$price EGP instead of $original_price',
+      name: 'monthly_price_with_discount',
+      desc: '',
+      args: [price, original_price],
+    );
+  }
+
+  /// `SAVE {discount}%`
+  String save_discount(Object discount) {
+    return Intl.message(
+      'SAVE $discount%',
+      name: 'save_discount',
+      desc: '',
+      args: [discount],
+    );
+  }
+
+  /// `Premium Plan`
+  String get premium_plan {
+    return Intl.message(
+      'Premium Plan',
+      name: 'premium_plan',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
