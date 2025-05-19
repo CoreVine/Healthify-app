@@ -22,8 +22,26 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "get_started": MessageLookupByLibrary.simpleMessage("ابدأ"),
     "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "next": MessageLookupByLibrary.simpleMessage("التالي"),
     "onboarding": MessageLookupByLibrary.simpleMessage("التمهيد"),
+    "onboarding_subtitle_1": MessageLookupByLibrary.simpleMessage(
+      "سواء كنت تسعى لفقدان الوزن، أو تناول طعام أفضل، أو الحركة أكثر - نحن هنا لدعمك. خطط شخصية، مصممة لك.",
+    ),
+    "onboarding_subtitle_2": MessageLookupByLibrary.simpleMessage(
+      "من عدد الخطوات، وسجلات الطعام، ومخططات الوزن إلى أهدافك وعاداتك، تابع كل شيء في مكان واحد. مصمم لإبقاء حماسك مستمراً.",
+    ),
+    "onboarding_subtitle_3": MessageLookupByLibrary.simpleMessage(
+      "احصل على خطط وجبات، وحميات، ومدربين رقميين تتناسب مع أهدافك وعاداتك. تناول طعاماً أفضل. تحرك أكثر. مصمم للحياة الواقعية.",
+    ),
+    "onboarding_title_1": MessageLookupByLibrary.simpleMessage("صحتك، طريقتك"),
+    "onboarding_title_2": MessageLookupByLibrary.simpleMessage(
+      "شاهد تقدمك ينبض بالحياة",
+    ),
+    "onboarding_title_3": MessageLookupByLibrary.simpleMessage(
+      "خطط أكثر ذكاءً. أنت أكثر صحخطط أذكى. أنت أكثر صحة.",
+    ),
     "register": MessageLookupByLibrary.simpleMessage("تسجيل"),
     "welcome_message": MessageLookupByLibrary.simpleMessage(
       "مرحبًا بكم في Healthify!",

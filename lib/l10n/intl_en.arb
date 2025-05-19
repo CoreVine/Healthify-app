@@ -1,6 +1,14 @@
 {
-  "welcome_message": "Welcome to Healthify!",
+  "get_started": "Get Started",
   "login": "Login",
+  "next": "Next",
+  "onboarding": "Onboarding",
+  "onboarding_subtitle_1": "Whether you're looking to lose weight, eat better, or move more—we’ll build a plan that fits your lifestyle. All you need to do is start.",
+  "onboarding_subtitle_2": "From steps to weight changes, track what counts. Stay focused, feel proud, and keep moving toward your goals—one day at a time.",
+  "onboarding_subtitle_3": "Get meal plans, tips, and insights tailored to your goals and habits. Built by experts. Backed by data. Designed for real life.",
+  "onboarding_title_1": "Your Health, Your Way",
+  "onboarding_title_2": "See Your Progress Come to Life",
+  "onboarding_title_3": "Smarter Plans. Healthier You.",
   "register": "Register",
-  "onboarding": "Onboarding"
+  "welcome_message": "Welcome to Healthify!"
 }

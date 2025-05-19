@@ -55,6 +55,91 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `Get Started`
+  String get get_started {
+    return Intl.message('Get Started', name: 'get_started', desc: '', args: []);
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message('Login', name: 'login', desc: '', args: []);
+  }
+
+  /// `Next`
+  String get next {
+    return Intl.message('Next', name: 'next', desc: '', args: []);
+  }
+
+  /// `Onboarding`
+  String get onboarding {
+    return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
+  }
+
+  /// `Whether you're looking to lose weight, eat better, or move more—we’ll build a plan that fits your lifestyle. All you need to do is start.`
+  String get onboarding_subtitle_1 {
+    return Intl.message(
+      'Whether you\'re looking to lose weight, eat better, or move more—we’ll build a plan that fits your lifestyle. All you need to do is start.',
+      name: 'onboarding_subtitle_1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `From steps to weight changes, track what counts. Stay focused, feel proud, and keep moving toward your goals—one day at a time.`
+  String get onboarding_subtitle_2 {
+    return Intl.message(
+      'From steps to weight changes, track what counts. Stay focused, feel proud, and keep moving toward your goals—one day at a time.',
+      name: 'onboarding_subtitle_2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get meal plans, tips, and insights tailored to your goals and habits. Built by experts. Backed by data. Designed for real life.`
+  String get onboarding_subtitle_3 {
+    return Intl.message(
+      'Get meal plans, tips, and insights tailored to your goals and habits. Built by experts. Backed by data. Designed for real life.',
+      name: 'onboarding_subtitle_3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Your Health, Your Way`
+  String get onboarding_title_1 {
+    return Intl.message(
+      'Your Health, Your Way',
+      name: 'onboarding_title_1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `See Your Progress Come to Life`
+  String get onboarding_title_2 {
+    return Intl.message(
+      'See Your Progress Come to Life',
+      name: 'onboarding_title_2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Smarter Plans. Healthier You.`
+  String get onboarding_title_3 {
+    return Intl.message(
+      'Smarter Plans. Healthier You.',
+      name: 'onboarding_title_3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register`
+  String get register {
+    return Intl.message('Register', name: 'register', desc: '', args: []);
+  }
+
   /// `Welcome to Healthify!`
   String get welcome_message {
     return Intl.message(
@@ -63,21 +148,6 @@ class S {
       desc: '',
       args: [],
     );
-  }
-
-  /// `Login`
-  String get login {
-    return Intl.message('Login', name: 'login', desc: '', args: []);
-  }
-
-  /// `Register`
-  String get register {
-    return Intl.message('Register', name: 'register', desc: '', args: []);
-  }
-
-  /// `Onboarding`
-  String get onboarding {
-    return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
   }
 }
 
