@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:healthify_app/core/di/dependency_injection.dart';
-import 'package:healthify_app/core/helpers/constants.dart';
-import 'package:healthify_app/core/theming/app_colors.dart';
-import 'package:healthify_app/features/translation/cubit/localization_cubit.dart';
-import 'package:healthify_app/generated/l10n.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'core/theming/app_colors.dart';
 import 'core/routing/app_router.dart';
-import 'core/routing/routes.dart';
+import 'core/di/dependency_injection.dart';
+import 'core/utils/functions/route_handlers.dart';
+import 'features/translation/cubit/localization_cubit.dart';
+import 'generated/l10n.dart';
 
 class HealthifyApp extends StatelessWidget {
   const HealthifyApp({super.key});
@@ -39,7 +38,7 @@ class HealthifyApp extends StatelessWidget {
                 scaffoldBackgroundColor: Colors.white,
               ),
               debugShowCheckedModeBanner: false,
-              initialRoute: hasTokenConstant ? Routes.homeScreen : Routes.loginScreen,
+              initialRoute: routeHandler(),
               onGenerateRoute: AppRouter.generateRoute,
             );
           },

@@ -3,6 +3,6 @@ class SharedPrefsKeys {
   static const String refreshTokenKey = "refreshToken";
   static const String userIdKey = "userId";
   static const String rememberMeKey = "rememberMe";
-  static const String isPassedIntroKey = "isPassedIntro";
+  static const String hasPassedIntroKey = "hasPassedIntro";
   static const String languageKey = "languageCode";
 }
