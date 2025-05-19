@@ -40,7 +40,7 @@ class CustomButton extends StatelessWidget {
             vertical: yPadding != null ? yPadding!.h : AppPaddings.gap8,
           ),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(30.r),
+            borderRadius: BorderRadius.circular(8.r),
             side: BorderSide(color: AppColors.transparent, width: 1.5.sp),
           ),
         ),

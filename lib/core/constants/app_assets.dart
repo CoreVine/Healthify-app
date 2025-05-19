@@ -6,6 +6,9 @@ class Assets {
   /// assets/icons/arrow_filled.svg
   static const String assetsIconsArrowFilled = "assets/icons/arrow_filled.svg";
 
+  /// assets/images/logo.png
+  static const String logoPng = "assets/images/logo.png";
+
   /// Assets for assetsIconsEllipse2
   /// assets/icons/ellipse2.svg
   static const String assetsIconsEllipse2 = "assets/icons/ellipse2.svg";

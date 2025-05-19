@@ -2,5 +2,12 @@
   "welcome_message": "مرحبًا بكم في Healthify!",
   "login": "تسجيل الدخول",
   "register": "تسجيل",
-  "onboarding": "التمهيد"
+  "onboarding": "التمهيد",
+  "logInToContinueYourHealthJourney": "تسجيل الدخول لمواصلة رحلتك الصحية",
+  "emailAddress": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "forgotPassword": "نسيت كلمه السر؟",
+  "dontHaveAnAccount": "لا تملك حساباً بعد؟ ",
+  "registerNow": "سجل الآن",
+  "rememberMe" : "تذكرني"
 }

@@ -79,6 +79,66 @@ class S {
   String get onboarding {
     return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
   }
+
+  /// `Log in to continue your health journey`
+  String get logInToContinueYourHealthJourney {
+    return Intl.message(
+      'Log in to continue your health journey',
+      name: 'logInToContinueYourHealthJourney',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email address`
+  String get emailAddress {
+    return Intl.message(
+      'Email address',
+      name: 'emailAddress',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message('Password', name: 'password', desc: '', args: []);
+  }
+
+  /// `Forgot Password?`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot Password?',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't have an account? `
+  String get dontHaveAnAccount {
+    return Intl.message(
+      'Don\'t have an account? ',
+      name: 'dontHaveAnAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register Now`
+  String get registerNow {
+    return Intl.message(
+      'Register Now',
+      name: 'registerNow',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remember me`
+  String get rememberMe {
+    return Intl.message('Remember me', name: 'rememberMe', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

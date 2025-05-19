@@ -6,6 +6,7 @@ import 'package:healthify_app/core/helpers/shared_prefs_keys.dart';
 
 Future<void> checkNavigation() async {
   String hasTokenResult = await SharedPrefHelper.getSecuredString(SharedPrefsKeys.tokenKey);
+  await SharedPrefHelper.getUser();
   debugPrint('hasTokenResult : $hasTokenResult');
   if (!hasTokenResult.isNullOrEmpty()) {
     hasTokenConstant = true;

@@ -5,4 +5,6 @@ class SharedPrefsKeys {
   static const String rememberMeKey = "rememberMe";
   static const String hasPassedIntroKey = "hasPassedIntro";
   static const String languageKey = "languageCode";
+  static const String userKey = "user";
+
 }

@@ -2,5 +2,12 @@
   "welcome_message": "Welcome to Healthify!",
   "login": "Login",
   "register": "Register",
-  "onboarding": "Onboarding"
+  "onboarding": "Onboarding",
+  "logInToContinueYourHealthJourney": "Log in to continue your health journey",
+  "emailAddress": "Email address",
+  "password": "Password",
+  "forgotPassword": "Forgot Password?",
+  "dontHaveAnAccount": "Don't have an account? ",
+  "registerNow": "Register Now",
+  "rememberMe" : "Remember me"
 }

@@ -22,9 +22,20 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "dontHaveAnAccount": MessageLookupByLibrary.simpleMessage(
+      "Don\'t have an account? ",
+    ),
+    "emailAddress": MessageLookupByLibrary.simpleMessage("Email address"),
+    "forgotPassword": MessageLookupByLibrary.simpleMessage("Forgot Password?"),
+    "logInToContinueYourHealthJourney": MessageLookupByLibrary.simpleMessage(
+      "Log in to continue your health journey",
+    ),
     "login": MessageLookupByLibrary.simpleMessage("Login"),
     "onboarding": MessageLookupByLibrary.simpleMessage("Onboarding"),
+    "password": MessageLookupByLibrary.simpleMessage("Password"),
     "register": MessageLookupByLibrary.simpleMessage("Register"),
+    "registerNow": MessageLookupByLibrary.simpleMessage("Register Now"),
+    "rememberMe": MessageLookupByLibrary.simpleMessage("Remember me"),
     "welcome_message": MessageLookupByLibrary.simpleMessage(
       "Welcome to Healthify!",
     ),

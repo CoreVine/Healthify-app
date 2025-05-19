@@ -1,6 +1,12 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:healthify_app/core/helpers/shared_prefs_keys.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../features/auth/manager/data/models/user.dart';
+import 'constants.dart';
 
 class SharedPrefHelper {
   // private constructor as I don't want to allow creating an instance of this class itself.
@@ -84,7 +90,23 @@ class SharedPrefHelper {
     debugPrint('FlutterSecureStorage : getSecuredString with key :');
     return await flutterSecureStorage.read(key: key) ?? '';
   }
-
+  /// Gets the stored user from FlutterSecureStorage.
+  static Future<User?> getUser() async {
+    const flutterSecureStorage = FlutterSecureStorage();
+    debugPrint('FlutterSecureStorage : getUser');
+    final userJson = await flutterSecureStorage.read(key: SharedPrefsKeys.userKey);
+    if (userJson != null && userJson.isNotEmpty) {
+      try {
+        final userMap = jsonDecode(userJson);
+        user = User.fromJson(userMap);
+        return User.fromJson(userMap);
+      } catch (e) {
+        debugPrint("Error decoding user JSON: $e");
+        return null;
+      }
+    }
+    return null;
+  }
   /// Removes all keys and values in the FlutterSecureStorage
   static clearAllSecuredData() async {
     debugPrint('FlutterSecureStorage : all data has been cleared');
