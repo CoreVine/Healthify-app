@@ -1,6 +1,9 @@
 {
-  "welcome_message": "Welcome to Healthify!",
+  "all_this_for_you": "All this for you, for healthy life",
+  "categories": "Categories",
+  "food": "Food",
   "login": "Login",
+  "onboarding": "Onboarding",
   "register": "Register",
-  "onboarding": "Onboarding"
+  "welcome_message": "Welcome to Healthify!"
 }

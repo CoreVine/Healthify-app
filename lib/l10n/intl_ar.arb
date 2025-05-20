@@ -1,6 +1,9 @@
 {
-  "welcome_message": "مرحبًا بكم في Healthify!",
+  "all_this_for_you": "كل هذا من أجلك, من أجل حياة صحية",
+  "categories": "تصنيفات",
+  "food": "الطعام",
   "login": "تسجيل الدخول",
+  "onboarding": "التمهيد",
   "register": "تسجيل",
-  "onboarding": "التمهيد"
+  "welcome_message": "مرحبًا بكم في Healthify!"
 }

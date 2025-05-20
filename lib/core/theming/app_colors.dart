@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static Color transparent=Colors.transparent;
+  static Color transparent = Colors.transparent;
   static Color main = Color(0XFF42960F);
   static Color secondary = Color(0XFFFF7A00);
   static Color accent = Color(0XFF2096F3);
   static Color text1 = Color(0XFF333333);
   static Color text2 = Color(0XFF666666);
   static Color white = Color(0XFFFFFFFF);
+  static Color black = Color(0XFF000000);
   static Color background = Color(0XFFECF5E7);
   static Color stroke = Color(0XFFE0DFD5);
 
