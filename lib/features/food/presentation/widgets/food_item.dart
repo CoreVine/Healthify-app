@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:healthify_app/core/helpers/extensions.dart';
+import 'package:healthify_app/core/routing/routes.dart';
 import 'package:healthify_app/core/theming/app_text_styles.dart';
 
 class FoodItem extends StatelessWidget {
@@ -12,22 +14,27 @@ class FoodItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      spacing: 8,
-      children: [
-        Expanded(
-          child: Image.asset(
-            foodImage,
-            fit: BoxFit.cover,
+    return GestureDetector(
+      onTap: () {
+        context.pushNamed(Routes.foodCategoryScreen, arguments: foodName);
+      },
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        spacing: 8,
+        children: [
+          Expanded(
+            child: Image.asset(
+              foodImage,
+              fit: BoxFit.cover,
+            ),
           ),
-        ),
-        Text(
-          foodName,
-          style: AppTextStyles.poppins18Medium(),
-        )
-      ],
+          Text(
+            foodName,
+            style: AppTextStyles.poppins18Medium(),
+          )
+        ],
+      ),
     );
   }
 }

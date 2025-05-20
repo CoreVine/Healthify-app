@@ -1,9 +1,18 @@
 {
+  "a_concise_overview_of_the_importance_of": "A concise overview of the importance of",
   "all_this_for_you": "All this for you, for healthy life",
+  "calories": "Calories",
+  "carbs": "Carbs",
   "categories": "Categories",
+  "fats": "Fats",
+  "fiber": "Fiber",
   "food": "Food",
+  "in_a_balanced_diet": "in a balanced diet.",
+  "items_per_100g": "Items per 100g",
   "login": "Login",
   "onboarding": "Onboarding",
+  "protein": "Protein",
   "register": "Register",
+  "vitamins": "Vitamins",
   "welcome_message": "Welcome to Healthify!"
 }

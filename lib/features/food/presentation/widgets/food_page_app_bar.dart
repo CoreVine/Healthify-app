@@ -5,6 +5,7 @@ import 'package:healthify_app/generated/l10n.dart';
 
 AppBar foodPageAppBar(BuildContext context) {
   return AppBar(
+    centerTitle: true,
     title: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,

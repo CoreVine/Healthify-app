@@ -13,14 +13,15 @@ class FoodsListView extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          crossAxisSpacing: 35.w,
-          mainAxisSpacing: 24.h,
-          childAspectRatio: 1 / 1.3),
+        crossAxisCount: 2,
+        crossAxisSpacing: 35.w,
+        mainAxisSpacing: 24.h,
+        childAspectRatio: 1 / 1.3,
+      ),
       itemCount: 20,
       itemBuilder: (context, index) {
         return FoodItem(
-          foodName: 'Food Name $index',
+          foodName: 'Food Category $index',
           foodImage: Assets.assetsImagesFoodItem1,
         );
       },
