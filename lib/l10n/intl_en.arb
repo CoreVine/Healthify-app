@@ -1,6 +1,8 @@
 {
-  "welcome_message": "Welcome to Healthify!",
+  "diets": "Diets",
   "login": "Login",
+  "onboarding": "Onboarding",
+  "read_more": "Read more",
   "register": "Register",
-  "onboarding": "Onboarding"
+  "welcome_message": "Welcome to Healthify!"
 }
