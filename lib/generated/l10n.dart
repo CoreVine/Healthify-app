@@ -55,6 +55,41 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `Login`
+  String get login {
+    return Intl.message('Login', name: 'login', desc: '', args: []);
+  }
+
+  /// `No notifications yet`
+  String get no_notifications_yet {
+    return Intl.message(
+      'No notifications yet',
+      name: 'no_notifications_yet',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Notifications`
+  String get notifications {
+    return Intl.message(
+      'Notifications',
+      name: 'notifications',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Onboarding`
+  String get onboarding {
+    return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
+  }
+
+  /// `Register`
+  String get register {
+    return Intl.message('Register', name: 'register', desc: '', args: []);
+  }
+
   /// `Welcome to Healthify!`
   String get welcome_message {
     return Intl.message(
@@ -63,21 +98,6 @@ class S {
       desc: '',
       args: [],
     );
-  }
-
-  /// `Login`
-  String get login {
-    return Intl.message('Login', name: 'login', desc: '', args: []);
-  }
-
-  /// `Register`
-  String get register {
-    return Intl.message('Register', name: 'register', desc: '', args: []);
-  }
-
-  /// `Onboarding`
-  String get onboarding {
-    return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
   }
 }
 
