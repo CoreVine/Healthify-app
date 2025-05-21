@@ -1,6 +1,8 @@
 {
-  "welcome_message": "Welcome to Healthify!",
   "login": "Login",
+  "no_notifications_yet": "No notifications yet",
+  "notifications": "Notifications",
+  "onboarding": "Onboarding",
   "register": "Register",
-  "onboarding": "Onboarding"
+  "welcome_message": "Welcome to Healthify!"
 }

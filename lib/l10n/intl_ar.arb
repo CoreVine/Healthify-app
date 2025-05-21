@@ -1,6 +1,8 @@
 {
-  "welcome_message": "مرحبًا بكم في Healthify!",
   "login": "تسجيل الدخول",
+  "no_notifications_yet": "لا توجد إشعارات حتى الآن",
+  "notifications": "الإشعارات",
+  "onboarding": "التمهيد",
   "register": "تسجيل",
-  "onboarding": "التمهيد"
+  "welcome_message": "مرحبًا بكم في Healthify!"
 }
