@@ -55,6 +55,21 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `Calories: `
+  String get calories {
+    return Intl.message('Calories: ', name: 'calories', desc: '', args: []);
+  }
+
+  /// `Description: `
+  String get description {
+    return Intl.message(
+      'Description: ',
+      name: 'description',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Diets`
   String get diets {
     return Intl.message('Diets', name: 'diets', desc: '', args: []);
@@ -88,6 +103,11 @@ class S {
       desc: '',
       args: [],
     );
+  }
+
+  /// `Workout: `
+  String get workout {
+    return Intl.message('Workout: ', name: 'workout', desc: '', args: []);
   }
 }
 

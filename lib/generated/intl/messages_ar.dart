@@ -22,6 +22,8 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "calories": MessageLookupByLibrary.simpleMessage("السعرات الحرارية: "),
+    "description": MessageLookupByLibrary.simpleMessage("الوصف: "),
     "diets": MessageLookupByLibrary.simpleMessage("حميات غذائية"),
     "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "onboarding": MessageLookupByLibrary.simpleMessage("التمهيد"),
@@ -30,5 +32,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "welcome_message": MessageLookupByLibrary.simpleMessage(
       "مرحبًا بكم في Healthify!",
     ),
+    "workout": MessageLookupByLibrary.simpleMessage("تمرين: "),
   };
 }

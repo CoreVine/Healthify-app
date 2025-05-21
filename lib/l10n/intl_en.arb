@@ -1,8 +1,11 @@
 {
+  "calories": "Calories: ",
+  "description": "Description: ",
   "diets": "Diets",
   "login": "Login",
   "onboarding": "Onboarding",
   "read_more": "Read more",
   "register": "Register",
-  "welcome_message": "Welcome to Healthify!"
+  "welcome_message": "Welcome to Healthify!",
+  "workout": "Workout: "
 }

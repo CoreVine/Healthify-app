@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:healthify_app/core/constants/app_assets.dart';
+import 'package:healthify_app/core/helpers/extensions.dart';
+import 'package:healthify_app/core/routing/routes.dart';
 import 'package:healthify_app/core/theming/app_colors.dart';
 import 'package:healthify_app/core/theming/app_text_styles.dart';
 import 'package:healthify_app/generated/l10n.dart';
@@ -54,7 +56,10 @@ class DietItem extends StatelessWidget {
                     CustomButton(
                       text: S.of(context).read_more,
                       onPressed: () {
-                        // Handle button press
+                        context.pushNamed(
+                          Routes.dietDetailsScreen,
+                          arguments: "Diet Name",
+                        );
                       },
                     ),
                   ],
