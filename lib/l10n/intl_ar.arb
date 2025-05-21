@@ -1,6 +1,11 @@
 {
-  "welcome_message": "مرحبًا بكم في Healthify!",
+  "calories": "السعرات الحرارية: ",
+  "description": "الوصف: ",
+  "diets": "حميات غذائية",
   "login": "تسجيل الدخول",
+  "onboarding": "التمهيد",
+  "read_more": "اقرأ المزيد",
   "register": "تسجيل",
-  "onboarding": "التمهيد"
+  "welcome_message": "مرحبًا بكم في Healthify!",
+  "workout": "تمرين: "
 }

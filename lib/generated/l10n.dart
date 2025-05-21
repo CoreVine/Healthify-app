@@ -55,6 +55,46 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `Calories: `
+  String get calories {
+    return Intl.message('Calories: ', name: 'calories', desc: '', args: []);
+  }
+
+  /// `Description: `
+  String get description {
+    return Intl.message(
+      'Description: ',
+      name: 'description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Diets`
+  String get diets {
+    return Intl.message('Diets', name: 'diets', desc: '', args: []);
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message('Login', name: 'login', desc: '', args: []);
+  }
+
+  /// `Onboarding`
+  String get onboarding {
+    return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
+  }
+
+  /// `Read more`
+  String get read_more {
+    return Intl.message('Read more', name: 'read_more', desc: '', args: []);
+  }
+
+  /// `Register`
+  String get register {
+    return Intl.message('Register', name: 'register', desc: '', args: []);
+  }
+
   /// `Welcome to Healthify!`
   String get welcome_message {
     return Intl.message(
@@ -65,19 +105,9 @@ class S {
     );
   }
 
-  /// `Login`
-  String get login {
-    return Intl.message('Login', name: 'login', desc: '', args: []);
-  }
-
-  /// `Register`
-  String get register {
-    return Intl.message('Register', name: 'register', desc: '', args: []);
-  }
-
-  /// `Onboarding`
-  String get onboarding {
-    return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
+  /// `Workout: `
+  String get workout {
+    return Intl.message('Workout: ', name: 'workout', desc: '', args: []);
   }
 }
 
