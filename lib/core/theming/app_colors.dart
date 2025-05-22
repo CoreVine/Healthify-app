@@ -10,6 +10,7 @@ class AppColors {
   static Color white = Color(0XFFFFFFFF);
   static Color background = Color(0XFFECF5E7);
   static Color stroke = Color(0XFFE0DFD5);
+  static Color gray = Color(0xFFF2F8F2);
 
   // Optional: Add a method to create a MaterialColor from a single Color
   static MaterialColor createMaterialColor(Color color) {

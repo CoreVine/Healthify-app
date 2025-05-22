@@ -79,6 +79,271 @@ class S {
   String get onboarding {
     return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
   }
+
+  /// `Log in to continue your health journey`
+  String get logInToContinueYourHealthJourney {
+    return Intl.message(
+      'Log in to continue your health journey',
+      name: 'logInToContinueYourHealthJourney',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email address`
+  String get emailAddress {
+    return Intl.message(
+      'Email address',
+      name: 'emailAddress',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message('Password', name: 'password', desc: '', args: []);
+  }
+
+  /// `Confirm password`
+  String get confirmPassword {
+    return Intl.message(
+      'Confirm password',
+      name: 'confirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot Password?`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot Password?',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't have an account? `
+  String get dontHaveAnAccount {
+    return Intl.message(
+      'Don\'t have an account? ',
+      name: 'dontHaveAnAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Register Now`
+  String get registerNow {
+    return Intl.message(
+      'Register Now',
+      name: 'registerNow',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remember me`
+  String get rememberMe {
+    return Intl.message('Remember me', name: 'rememberMe', desc: '', args: []);
+  }
+
+  /// `Next time you login, you can use your fingerprint or face ID to access your account.`
+  String get nextTimeYouLogin {
+    return Intl.message(
+      'Next time you login, you can use your fingerprint or face ID to access your account.',
+      name: 'nextTimeYouLogin',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Got it`
+  String get gotIt {
+    return Intl.message('Got it', name: 'gotIt', desc: '', args: []);
+  }
+
+  /// `Biometric Authentication Enabled`
+  String get bioMetricAuthEnabled {
+    return Intl.message(
+      'Biometric Authentication Enabled',
+      name: 'bioMetricAuthEnabled',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Join HealthifyMe and start your journey to a healthier life alue`
+  String get joinHealthifyMe {
+    return Intl.message(
+      'Join HealthifyMe and start your journey to a healthier life alue',
+      name: 'joinHealthifyMe',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `First Name`
+  String get firstName {
+    return Intl.message('First Name', name: 'firstName', desc: '', args: []);
+  }
+
+  /// `Last Name`
+  String get lastName {
+    return Intl.message('Last Name', name: 'lastName', desc: '', args: []);
+  }
+
+  /// `I agree to the Terms of Service and Privacy Policy.`
+  String get iAgreeToTerms {
+    return Intl.message(
+      'I agree to the Terms of Service and Privacy Policy.',
+      name: 'iAgreeToTerms',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create Account`
+  String get createAccount {
+    return Intl.message(
+      'Create Account',
+      name: 'createAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Verify`
+  String get verify {
+    return Intl.message('Verify', name: 'verify', desc: '', args: []);
+  }
+
+  /// `Didn't get the email? `
+  String get didntGetTheEmail {
+    return Intl.message(
+      'Didn\'t get the email? ',
+      name: 'didntGetTheEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resend code`
+  String get resendCode {
+    return Intl.message('Resend code', name: 'resendCode', desc: '', args: []);
+  }
+
+  /// `Check your email`
+  String get checkYourEmail {
+    return Intl.message(
+      'Check your email',
+      name: 'checkYourEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We sent you an email with a verification code, please enter the 5 digit code that mentioned in the email`
+  String get weSentAnEmail {
+    return Intl.message(
+      'We sent you an email with a verification code, please enter the 5 digit code that mentioned in the email',
+      name: 'weSentAnEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Where are you from?`
+  String get whereAreYouFrom {
+    return Intl.message(
+      'Where are you from?',
+      name: 'whereAreYouFrom',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `This will help us personalize the app for you `
+  String get thisWillHelpUsPersonalizeTheAppForYou {
+    return Intl.message(
+      'This will help us personalize the app for you ',
+      name: 'thisWillHelpUsPersonalizeTheAppForYou',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your gender`
+  String get whatsYourGender {
+    return Intl.message(
+      'What’s your gender',
+      name: 'whatsYourGender',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Just answer a few quick questions so we can tailor your diet and calculate your daily health goals.`
+  String get justAnswerFewQuestions {
+    return Intl.message(
+      'Just answer a few quick questions so we can tailor your diet and calculate your daily health goals.',
+      name: 'justAnswerFewQuestions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your age?`
+  String get whatsYourAge {
+    return Intl.message(
+      'What’s your age?',
+      name: 'whatsYourAge',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your height?`
+  String get whatsYourHeight {
+    return Intl.message(
+      'What’s your height?',
+      name: 'whatsYourHeight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your current weight?`
+  String get whatsYourCurrentWeight {
+    return Intl.message(
+      'What’s your current weight?',
+      name: 'whatsYourCurrentWeight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your goal weight?`
+  String get whatsYourGoalWeight {
+    return Intl.message(
+      'What’s your goal weight?',
+      name: 'whatsYourGoalWeight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your active level?`
+  String get whatsYourActiveLevel {
+    return Intl.message(
+      'What’s your active level?',
+      name: 'whatsYourActiveLevel',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

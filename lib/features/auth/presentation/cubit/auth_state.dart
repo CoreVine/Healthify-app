@@ -8,3 +8,58 @@ abstract class AuthState extends Equatable {
 }
 
 class AuthInitial extends AuthState {}
+
+final class ChangeRememberMeState extends AuthState {
+  final bool rememberMe;
+
+  const ChangeRememberMeState({required this.rememberMe});
+
+  @override
+  List<Object> get props => [rememberMe];
+}
+final class ChangeAcceptedTermsState extends AuthState {
+  final bool isTermsAccepted;
+
+  const ChangeAcceptedTermsState({required this.isTermsAccepted});
+
+  @override
+  List<Object> get props => [isTermsAccepted];
+}
+class AuthPasswordVisibilityChanged extends AuthState {
+  final bool isObscure;
+  final bool isConfirm;
+
+  const AuthPasswordVisibilityChanged(this.isObscure, {this.isConfirm = false});
+
+  @override
+  List<Object> get props => [isObscure, isConfirm];
+}
+
+final class LoginSuccessState extends AuthState {}
+
+final class LoginLoadingState extends AuthState {}
+
+final class BiometricAvailabilityState extends AuthState {
+  final bool isBiometricAvailable;
+
+  const BiometricAvailabilityState({required this.isBiometricAvailable});
+
+  @override
+  List<Object> get props => [isBiometricAvailable];
+}
+
+final class LoginErrorState extends AuthState {}
+final class RegisterErrorState extends AuthState {}
+final class RegisterSuccessState extends AuthState {}
+final class AuthCodeVerified extends AuthState {}
+final class CloseDietPlanState extends AuthState {}
+final class ChangePageState extends AuthState {
+  final int currentPage;
+
+  const ChangePageState({required this.currentPage});
+
+  @override
+  List<Object> get props => [currentPage];
+}
+
+

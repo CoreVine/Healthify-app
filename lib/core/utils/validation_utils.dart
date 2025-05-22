@@ -5,7 +5,15 @@ class ValidationUtils {
     }
     return null;
   }
-
+  String? validateConfirmPassword(String? value, String password) {
+    if (value == null || value.isEmpty) {
+      return 'Please confirm your password';
+    }
+    if (value != password) {
+      return 'Passwords do not match';
+    }
+    return null;
+  }
   String? validateUsername(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your username';
@@ -46,6 +54,15 @@ class ValidationUtils {
   String? validateAddress(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your address';
+    }
+    return null;
+  }
+  String? validateFiveDigitCode(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'Please enter the 5-digit code';
+    }
+    if (!RegExp(r'^[0-9]{5}$').hasMatch(value)) {
+      return 'Code must be exactly 5 digits';
     }
     return null;
   }

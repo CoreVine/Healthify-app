@@ -13,6 +13,8 @@
 		<string>Healthify App</string>
 		<key>CFBundleExecutable</key>
 		<string>$(EXECUTABLE_NAME)</string>
+		<key>NSFaceIDUsageDescription</key>
+        <string>We use biometric auth for better user expereince</string>
 		<key>CFBundleIdentifier</key>
 		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 		<key>CFBundleInfoDictionaryVersion</key>

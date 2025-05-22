@@ -14,7 +14,6 @@ class ApiManager {
 
   Future<Response> get({required String endPoint}) async {
     final response = await dio.get(baseUrl + endPoint);
-
     return response;
   }
 

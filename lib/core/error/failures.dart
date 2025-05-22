@@ -38,29 +38,27 @@ class ServerFailure extends Failures {
   }
 
   factory ServerFailure.fromResponse(
-    int statesCode,
+    int statusCode,
     dynamic errorResponseBody,
   ) {
-    if (statesCode >= 400 && statesCode <= 410 && statesCode != 404) {
+    if (statusCode >= 400 && statusCode <= 410 && statusCode != 404) {
+      // Example: 401 Unauthorized
       return ServerFailure(
-        error: errorResponseBody["errors"] != null
-            ? parseErrorResponse(errorResponseBody as Map<String, dynamic>)
-            : errorResponseBody["data"]["message"] ??
-                'There was an error , Please try again',
+        error: errorResponseBody["message"] ??
+            'There was an error, Please try again',
       );
-    } else if (statesCode == 404) {
+    } else if (statusCode == 404) {
       return ServerFailure(
         error: errorResponseBody['message'] ?? 'Not found, Please try again',
       );
-    } else if (statesCode == 500) {
+    } else if (statusCode == 500) {
       return ServerFailure(error: 'Server error');
     } else {
+      // fallback if "errors" map exists
       return ServerFailure(
-        error: parseErrorResponse(
-          errorResponseBody as Map<String, dynamic>,
-        ).isEmpty
-            ? 'There was an error , Please try again'
-            : parseErrorResponse(errorResponseBody),
+        error: errorResponseBody["errors"] != null
+            ? parseErrorResponse(errorResponseBody as Map<String, dynamic>)
+            : 'There was an error, Please try again',
       );
     }
   }
