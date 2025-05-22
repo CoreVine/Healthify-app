@@ -6,6 +6,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:healthify_app/core/helpers/constants.dart';
 import 'package:healthify_app/core/helpers/toast_extension.dart';
 import 'package:healthify_app/features/auth/manager/data/models/login_response.dart';
+import 'package:healthify_app/features/auth/manager/data/models/register_response.dart';
+import 'package:healthify_app/features/auth/manager/domain/use_cases/create_account_use_case.dart';
 import 'package:local_auth/local_auth.dart';
 
 import '../../../../core/di/dependency_injection.dart';
@@ -21,22 +23,60 @@ class AuthCubit extends Cubit<AuthState> {
 
   bool rememberMe = false;
   LoginUseCase loginUseCase = getIt<LoginUseCase>();
+  CreateAccountUseCase createAccountUseCase = getIt<CreateAccountUseCase>();
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
+  TextEditingController firstNameController = TextEditingController();
+  TextEditingController lastNameController = TextEditingController();
+  TextEditingController confirmPasswordController = TextEditingController();
+  bool isTermsAccepted = false;
   FocusNode emailNode = FocusNode();
   FocusNode passwordNode = FocusNode();
-  GlobalKey<FormState> form = GlobalKey<FormState>();
+  GlobalKey<FormState> loginForm = GlobalKey<FormState>();
+  GlobalKey<FormState> registerForm = GlobalKey<FormState>();
   bool isBiometricAvailable = false;
   final LocalAuthentication bioAuth = LocalAuthentication();
+  bool isPasswordObscure = true;
+  bool isConfirmPasswordObscure = true;
+  GlobalKey<FormState> verifyCodeFormKey = GlobalKey<FormState>();
+  List<String> code = List.filled(5, "");
 
   void toggleRememberMe() {
     rememberMe = !rememberMe;
     emit(ChangeRememberMeState(rememberMe: rememberMe));
   }
 
+  void toggleTerms() {
+    isTermsAccepted = !isTermsAccepted;
+    emit(ChangeAcceptedTermsState(isTermsAccepted: isTermsAccepted));
+  }
+
+  void sendCode() {
+    final fullCode = code.join();
+    if (fullCode.length == 5) {
+      emit(AuthCodeVerified());
+      print(fullCode);
+    } else {
+      "Please enter a 5-digit code".showToast();
+    }
+  }
+  Future<void> register(SignUpRequest signUpRequest) async {
+    if (registerForm.currentState!.validate() && isTermsAccepted) {
+      final response = await createAccountUseCase.createAccount(signUpRequest);
+      response.fold(
+        (l) {
+          return l.error.showToast();
+        },
+        (r) {
+          emit(RegisterSuccessState());
+        },
+      );
+    }
+  }
+
   Future<void> login(LoginRequest loginRequest) async {
     emit(LoginLoadingState());
-    if (form.currentState!.validate()) {
+    if (loginForm.currentState!.validate()) {
       final result = await loginUseCase.login(loginRequest);
       result.fold((l) {
         emit(LoginErrorState());
@@ -110,5 +150,16 @@ class AuthCubit extends Cubit<AuthState> {
       emit(LoginErrorState());
       print("Biometric authentication failed: $e");
     }
+  }
+
+  void changePasswordVisibility() {
+    isPasswordObscure = !isPasswordObscure;
+    emit(AuthPasswordVisibilityChanged(isPasswordObscure));
+  }
+
+  void changeConfirmPasswordVisibility() {
+    isConfirmPasswordObscure = !isConfirmPasswordObscure;
+    emit(AuthPasswordVisibilityChanged(isConfirmPasswordObscure,
+        isConfirm: true));
   }
 }

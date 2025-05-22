@@ -3,6 +3,7 @@ import 'package:healthify_app/core/api/api_manager.dart';
 import 'package:healthify_app/core/api/dio_factory.dart';
 import 'package:healthify_app/features/auth/manager/data/data_sources/auth_ds.dart';
 import 'package:healthify_app/features/auth/manager/domain/repositories/auth_repository.dart';
+import 'package:healthify_app/features/auth/manager/domain/use_cases/create_account_use_case.dart';
 import 'package:healthify_app/features/auth/manager/domain/use_cases/login_use_case.dart';
 import 'package:healthify_app/features/auth/presentation/cubit/auth_cubit.dart';
 import 'package:healthify_app/features/translation/cubit/localization_cubit.dart';
@@ -34,6 +35,10 @@ Future<void> setupGetIt() async {
   // Use Cases
   getIt.registerLazySingleton<LoginUseCase>(
     () => LoginUseCase(getIt.get<AuthRepository>()),
+  );
+
+  getIt.registerLazySingleton<CreateAccountUseCase>(
+    () => CreateAccountUseCase(getIt.get<AuthRepository>()),
   );
 
   // Cubits

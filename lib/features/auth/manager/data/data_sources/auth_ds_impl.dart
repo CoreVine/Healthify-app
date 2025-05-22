@@ -3,6 +3,7 @@ import 'package:healthify_app/core/api/api_manager.dart';
 import 'package:healthify_app/core/constants/app_urls.dart';
 import 'package:healthify_app/features/auth/manager/data/data_sources/auth_ds.dart';
 import 'package:healthify_app/features/auth/manager/data/models/login_response.dart';
+import 'package:healthify_app/features/auth/manager/data/models/register_response.dart';
 
 import '../../../../../core/error/failures.dart';
 
@@ -16,5 +17,12 @@ class AuthDataSourceImpl implements AuthDataSource {
     final response = await apiManager.post(
         endPoint: AppUrls.login, data: loginRequest.toJson());
     return LoginResponse.fromJson(response.data);
+  }
+
+  @override
+  Future<SignUpResponse> createAccount(SignUpRequest signUpRequest) async {
+    final response = await apiManager.post(
+        endPoint: AppUrls.register, data: signUpRequest.toJson());
+    return SignUpResponse.fromJson(response.data);
   }
 }

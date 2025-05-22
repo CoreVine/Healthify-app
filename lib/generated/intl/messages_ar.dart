@@ -25,12 +25,28 @@ class MessageLookup extends MessageLookupByLibrary {
     "bioMetricAuthEnabled": MessageLookupByLibrary.simpleMessage(
       "تم تفعيل التسجيل بالبصمة",
     ),
+    "checkYourEmail": MessageLookupByLibrary.simpleMessage(
+      "تحقق من بريدك الإلكتروني",
+    ),
+    "confirmPassword": MessageLookupByLibrary.simpleMessage("Confirm password"),
+    "createAccount": MessageLookupByLibrary.simpleMessage("إنشاء حساب"),
+    "didntGetTheEmail": MessageLookupByLibrary.simpleMessage(
+      "لم تتلقَ البريد الإلكتروني؟",
+    ),
     "dontHaveAnAccount": MessageLookupByLibrary.simpleMessage(
       "لا تملك حساباً بعد؟ ",
     ),
     "emailAddress": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+    "firstName": MessageLookupByLibrary.simpleMessage("الاسم الاول"),
     "forgotPassword": MessageLookupByLibrary.simpleMessage("نسيت كلمه السر؟"),
     "gotIt": MessageLookupByLibrary.simpleMessage("تم"),
+    "iAgreeToTerms": MessageLookupByLibrary.simpleMessage(
+      "أوافق على شروط الخدمة و سياسة الخصوصية.",
+    ),
+    "joinHealthifyMe": MessageLookupByLibrary.simpleMessage(
+      "انضم إلى هيلثيفاي مي وابدأ رحلتك نحو حياة أكثر صحة.",
+    ),
+    "lastName": MessageLookupByLibrary.simpleMessage("الاسم الاخير"),
     "logInToContinueYourHealthJourney": MessageLookupByLibrary.simpleMessage(
       "تسجيل الدخول لمواصلة رحلتك الصحية",
     ),
@@ -43,6 +59,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "register": MessageLookupByLibrary.simpleMessage("تسجيل"),
     "registerNow": MessageLookupByLibrary.simpleMessage("سجل الآن"),
     "rememberMe": MessageLookupByLibrary.simpleMessage("تذكرني"),
+    "resendCode": MessageLookupByLibrary.simpleMessage("إعادة إرسال الرمز"),
+    "verify": MessageLookupByLibrary.simpleMessage("تحقق"),
+    "weSentAnEmail": MessageLookupByLibrary.simpleMessage(
+      "لقد أرسلنا لك بريدًا إلكترونيًا يحتوي على رمز التحقق، يرجى إدخال الرمز المكون من 5 أرقام المذكور في البريد الإلكتروني.",
+    ),
     "welcome_message": MessageLookupByLibrary.simpleMessage(
       "مرحبًا بكم في Healthify!",
     ),

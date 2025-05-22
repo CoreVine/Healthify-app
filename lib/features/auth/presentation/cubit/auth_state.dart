@@ -17,6 +17,23 @@ final class ChangeRememberMeState extends AuthState {
   @override
   List<Object> get props => [rememberMe];
 }
+final class ChangeAcceptedTermsState extends AuthState {
+  final bool isTermsAccepted;
+
+  const ChangeAcceptedTermsState({required this.isTermsAccepted});
+
+  @override
+  List<Object> get props => [isTermsAccepted];
+}
+class AuthPasswordVisibilityChanged extends AuthState {
+  final bool isObscure;
+  final bool isConfirm;
+
+  const AuthPasswordVisibilityChanged(this.isObscure, {this.isConfirm = false});
+
+  @override
+  List<Object> get props => [isObscure, isConfirm];
+}
 
 final class LoginSuccessState extends AuthState {}
 
@@ -32,4 +49,8 @@ final class BiometricAvailabilityState extends AuthState {
 }
 
 final class LoginErrorState extends AuthState {}
+final class RegisterErrorState extends AuthState {}
+final class RegisterSuccessState extends AuthState {}
+final class AuthCodeVerified extends AuthState {}
+
 

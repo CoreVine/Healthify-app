@@ -105,6 +105,16 @@ class S {
     return Intl.message('Password', name: 'password', desc: '', args: []);
   }
 
+  /// `Confirm password`
+  String get confirmPassword {
+    return Intl.message(
+      'Confirm password',
+      name: 'confirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Forgot Password?`
   String get forgotPassword {
     return Intl.message(
@@ -160,6 +170,86 @@ class S {
     return Intl.message(
       'Biometric Authentication Enabled',
       name: 'bioMetricAuthEnabled',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Join HealthifyMe and start your journey to a healthier life alue`
+  String get joinHealthifyMe {
+    return Intl.message(
+      'Join HealthifyMe and start your journey to a healthier life alue',
+      name: 'joinHealthifyMe',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `First Name`
+  String get firstName {
+    return Intl.message('First Name', name: 'firstName', desc: '', args: []);
+  }
+
+  /// `Last Name`
+  String get lastName {
+    return Intl.message('Last Name', name: 'lastName', desc: '', args: []);
+  }
+
+  /// `I agree to the Terms of Service and Privacy Policy.`
+  String get iAgreeToTerms {
+    return Intl.message(
+      'I agree to the Terms of Service and Privacy Policy.',
+      name: 'iAgreeToTerms',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create Account`
+  String get createAccount {
+    return Intl.message(
+      'Create Account',
+      name: 'createAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Verify`
+  String get verify {
+    return Intl.message('Verify', name: 'verify', desc: '', args: []);
+  }
+
+  /// `Didn't get the email? `
+  String get didntGetTheEmail {
+    return Intl.message(
+      'Didn\'t get the email? ',
+      name: 'didntGetTheEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resend code`
+  String get resendCode {
+    return Intl.message('Resend code', name: 'resendCode', desc: '', args: []);
+  }
+
+  /// `Check your email`
+  String get checkYourEmail {
+    return Intl.message(
+      'Check your email',
+      name: 'checkYourEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We sent you an email with a verification code, please enter the 5 digit code that mentioned in the email`
+  String get weSentAnEmail {
+    return Intl.message(
+      'We sent you an email with a verification code, please enter the 5 digit code that mentioned in the email',
+      name: 'weSentAnEmail',
       desc: '',
       args: [],
     );

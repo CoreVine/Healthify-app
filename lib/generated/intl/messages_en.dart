@@ -25,12 +25,26 @@ class MessageLookup extends MessageLookupByLibrary {
     "bioMetricAuthEnabled": MessageLookupByLibrary.simpleMessage(
       "Biometric Authentication Enabled",
     ),
+    "checkYourEmail": MessageLookupByLibrary.simpleMessage("Check your email"),
+    "confirmPassword": MessageLookupByLibrary.simpleMessage("Confirm password"),
+    "createAccount": MessageLookupByLibrary.simpleMessage("Create Account"),
+    "didntGetTheEmail": MessageLookupByLibrary.simpleMessage(
+      "Didn\'t get the email? ",
+    ),
     "dontHaveAnAccount": MessageLookupByLibrary.simpleMessage(
       "Don\'t have an account? ",
     ),
     "emailAddress": MessageLookupByLibrary.simpleMessage("Email address"),
+    "firstName": MessageLookupByLibrary.simpleMessage("First Name"),
     "forgotPassword": MessageLookupByLibrary.simpleMessage("Forgot Password?"),
     "gotIt": MessageLookupByLibrary.simpleMessage("Got it"),
+    "iAgreeToTerms": MessageLookupByLibrary.simpleMessage(
+      "I agree to the Terms of Service and Privacy Policy.",
+    ),
+    "joinHealthifyMe": MessageLookupByLibrary.simpleMessage(
+      "Join HealthifyMe and start your journey to a healthier life alue",
+    ),
+    "lastName": MessageLookupByLibrary.simpleMessage("Last Name"),
     "logInToContinueYourHealthJourney": MessageLookupByLibrary.simpleMessage(
       "Log in to continue your health journey",
     ),
@@ -43,6 +57,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "register": MessageLookupByLibrary.simpleMessage("Register"),
     "registerNow": MessageLookupByLibrary.simpleMessage("Register Now"),
     "rememberMe": MessageLookupByLibrary.simpleMessage("Remember me"),
+    "resendCode": MessageLookupByLibrary.simpleMessage("Resend code"),
+    "verify": MessageLookupByLibrary.simpleMessage("Verify"),
+    "weSentAnEmail": MessageLookupByLibrary.simpleMessage(
+      "We sent you an email with a verification code, please enter the 5 digit code that mentioned in the email",
+    ),
     "welcome_message": MessageLookupByLibrary.simpleMessage(
       "Welcome to Healthify!",
     ),

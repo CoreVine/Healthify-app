@@ -24,7 +24,7 @@ class HealthifyApp extends StatelessWidget {
         child: BlocBuilder<LocaleCubit, Locale>(
           builder: (context, state) {
             return MaterialApp(
-              locale: Locale(state.languageCode),
+              locale: Locale("ar"),
               localizationsDelegates: const [
                 S.delegate,
                 GlobalMaterialLocalizations.delegate,
@@ -39,7 +39,7 @@ class HealthifyApp extends StatelessWidget {
                 scaffoldBackgroundColor: Colors.white,
               ),
               debugShowCheckedModeBanner: false,
-              initialRoute: Routes.loginScreen,
+              initialRoute: Routes.verifyCode,
               onGenerateRoute: AppRouter.generateRoute,
             );
           },

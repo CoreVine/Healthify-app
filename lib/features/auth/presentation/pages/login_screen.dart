@@ -34,7 +34,6 @@ class _LoginScreenState extends State<LoginScreen> {
     super.initState();
   }
 
-
   @override
   Widget build(BuildContext context) {
     final cubit = context.read<AuthCubit>();
@@ -59,14 +58,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       if (state is LoginSuccessState) {
                         Navigator.pushReplacementNamed(
                             context, Routes.homeScreen);
-                      } else if (state is LoginErrorState) {
-                      }
+                      } else if (state is LoginErrorState) {}
                     },
                     builder: (context, state) {
                       return Form(
-                        key: cubit.form,
+                        key: cubit.loginForm,
                         child: Container(
-                          constraints: BoxConstraints(minHeight: constraints.maxHeight),
+                          constraints:
+                              BoxConstraints(minHeight: constraints.maxHeight),
                           decoration: BoxDecoration(
                             color: AppColors.gray,
                             borderRadius: BorderRadius.only(
@@ -93,12 +92,11 @@ class _LoginScreenState extends State<LoginScreen> {
                               InputFieldWidget(
                                   textController: cubit.emailController,
                                   labelText: S.of(context).emailAddress,
-                                  validator: (value) => ValidationUtils()
-                                      .validateEmail(value)),
+                                  validator: (value) =>
+                                      ValidationUtils().validateEmail(value)),
                               SizedBox(height: 24.h),
                               InputFieldWidget(
-                                  textController:
-                                      cubit.passwordController,
+                                  textController: cubit.passwordController,
                                   labelText: S.of(context).password,
                                   validator: (value) => ValidationUtils()
                                       .validatePassword(value)),
@@ -109,15 +107,13 @@ class _LoginScreenState extends State<LoginScreen> {
                                 children: [
                                   RememberMeWidget(
                                       rememberMeClicked: cubit.rememberMe,
-                                      onChanged:
-                                          cubit.toggleRememberMe),
+                                      onChanged: cubit.toggleRememberMe),
                                   GestureDetector(
                                     onTap: () {},
                                     child: Text(
                                       S.of(context).forgotPassword,
                                       style: AppTextStyles.roboto12Bold()
-                                          .copyWith(
-                                              color: AppColors.accent),
+                                          .copyWith(color: AppColors.accent),
                                     ),
                                   ),
                                 ],
@@ -131,31 +127,28 @@ class _LoginScreenState extends State<LoginScreen> {
                                       cubit.passwordController.text));
                                 },
                                 bgColor: AppColors.main,
-                                textStyle:
-                                    AppTextStyles.poppins16Regular()
-                                        .copyWith(color: Colors.white),
+                                textStyle: AppTextStyles.poppins16Regular()
+                                    .copyWith(color: Colors.white),
                                 yPadding: 20.h,
                               ),
                               SizedBox(height: 20.h),
                               Center(
                                 child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
                                       S.of(context).dontHaveAnAccount,
-                                      style:
-                                          AppTextStyles.roboto12Regular(),
+                                      style: AppTextStyles.roboto12Regular(),
                                     ),
                                     GestureDetector(
-                                      onTap: () {},
+                                      onTap: () {
+                                        Navigator.pushNamed(
+                                            context, Routes.registerScreen);
+                                      },
                                       child: Text(
                                         S.of(context).registerNow,
-                                        style:
-                                            AppTextStyles.roboto12Bold()
-                                                .copyWith(
-                                                    color:
-                                                        AppColors.accent),
+                                        style: AppTextStyles.roboto12Bold()
+                                            .copyWith(color: AppColors.accent),
                                       ),
                                     ),
                                   ],
