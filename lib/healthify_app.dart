@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:healthify_app/core/routing/routes.dart';
 
 import 'core/theming/app_colors.dart';
 import 'core/routing/app_router.dart';
@@ -38,7 +39,7 @@ class HealthifyApp extends StatelessWidget {
                 scaffoldBackgroundColor: Colors.white,
               ),
               debugShowCheckedModeBanner: false,
-              initialRoute: routeHandler(),
+              initialRoute: Routes.loginScreen,
               onGenerateRoute: AppRouter.generateRoute,
             );
           },

@@ -22,15 +22,22 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "bioMetricAuthEnabled": MessageLookupByLibrary.simpleMessage(
+      "تم تفعيل التسجيل بالبصمة",
+    ),
     "dontHaveAnAccount": MessageLookupByLibrary.simpleMessage(
       "لا تملك حساباً بعد؟ ",
     ),
     "emailAddress": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "forgotPassword": MessageLookupByLibrary.simpleMessage("نسيت كلمه السر؟"),
+    "gotIt": MessageLookupByLibrary.simpleMessage("تم"),
     "logInToContinueYourHealthJourney": MessageLookupByLibrary.simpleMessage(
       "تسجيل الدخول لمواصلة رحلتك الصحية",
     ),
     "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+    "nextTimeYouLogin": MessageLookupByLibrary.simpleMessage(
+      "في المرة القادمة التي تسجل فيها الدخول، يمكنك استخدام بصمة إصبعك أو وجهك للوصول إلى حسابك.",
+    ),
     "onboarding": MessageLookupByLibrary.simpleMessage("التمهيد"),
     "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "register": MessageLookupByLibrary.simpleMessage("تسجيل"),

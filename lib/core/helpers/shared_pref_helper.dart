@@ -107,6 +107,17 @@ class SharedPrefHelper {
     }
     return null;
   }
+ /// gets the cashed biometric user
+  static getBiometricUser() async {
+    String? cacheUser = await SharedPrefHelper.getSecuredString(
+      SharedPrefsKeys.bioMetricAuth,
+    );
+    print('cacheUser: ${cacheUser?.isEmpty}ffffffffffff');
+    if (cacheUser != null && cacheUser.isNotEmpty) {
+      return User.fromJson(jsonDecode(cacheUser));
+    }
+  }
+
   /// Removes all keys and values in the FlutterSecureStorage
   static clearAllSecuredData() async {
     debugPrint('FlutterSecureStorage : all data has been cleared');

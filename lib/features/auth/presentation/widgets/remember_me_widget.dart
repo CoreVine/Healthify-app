@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:healthify_app/features/auth/presentation/widgets/biometric_auth.dart';
 
 import '../../../../../generated/l10n.dart';
 import '../../../../core/theming/app_colors.dart';
@@ -17,7 +18,7 @@ class RememberMeWidget extends StatelessWidget {
     return Row(
       children: [
         Checkbox.adaptive(
-            activeColor: AppColors.white,
+            activeColor: AppColors.main,
             side: BorderSide(color: AppColors.main, width: 1.5.w),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(4.r),
@@ -27,6 +28,7 @@ class RememberMeWidget extends StatelessWidget {
             value: rememberMeClicked,
             onChanged: (value) {
               if (value!) {
+                showDialog(context: context, builder: (context) => BiometricAuthDialogWidget(),);
                 print(value);
               }
               onChanged();

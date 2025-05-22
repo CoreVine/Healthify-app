@@ -9,5 +9,8 @@
   "forgotPassword": "نسيت كلمه السر؟",
   "dontHaveAnAccount": "لا تملك حساباً بعد؟ ",
   "registerNow": "سجل الآن",
-  "rememberMe" : "تذكرني"
+  "rememberMe" : "تذكرني",
+  "gotIt": "تم",
+  "nextTimeYouLogin": "في المرة القادمة التي تسجل فيها الدخول، يمكنك استخدام بصمة إصبعك أو وجهك للوصول إلى حسابك.",
+  "bioMetricAuthEnabled" : "تم تفعيل التسجيل بالبصمة"
 }

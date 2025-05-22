@@ -139,6 +139,31 @@ class S {
   String get rememberMe {
     return Intl.message('Remember me', name: 'rememberMe', desc: '', args: []);
   }
+
+  /// `Next time you login, you can use your fingerprint or face ID to access your account.`
+  String get nextTimeYouLogin {
+    return Intl.message(
+      'Next time you login, you can use your fingerprint or face ID to access your account.',
+      name: 'nextTimeYouLogin',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Got it`
+  String get gotIt {
+    return Intl.message('Got it', name: 'gotIt', desc: '', args: []);
+  }
+
+  /// `Biometric Authentication Enabled`
+  String get bioMetricAuthEnabled {
+    return Intl.message(
+      'Biometric Authentication Enabled',
+      name: 'bioMetricAuthEnabled',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
