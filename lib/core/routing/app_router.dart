@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:healthify_app/core/routing/routes.dart';
+import 'package:healthify_app/features/auth/presentation/pages/diet_data_screen.dart';
 import 'package:healthify_app/features/auth/presentation/pages/login_screen.dart';
 import 'package:healthify_app/features/auth/presentation/pages/register_screen.dart';
 import 'package:healthify_app/features/auth/presentation/pages/verify_code_screen.dart';
@@ -40,7 +41,7 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => BlocProvider(
             create: (context) => getIt<AuthCubit>(),
-            child: VerifyCodeScreen(),
+            child: DietDataScreen(),
           ),
         );
       case Routes.homeScreen:

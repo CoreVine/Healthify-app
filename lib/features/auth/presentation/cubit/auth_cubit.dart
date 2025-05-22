@@ -31,6 +31,7 @@ class AuthCubit extends Cubit<AuthState> {
   TextEditingController confirmPasswordController = TextEditingController();
   bool isTermsAccepted = false;
   FocusNode emailNode = FocusNode();
+  int currentPage = 1;
   FocusNode passwordNode = FocusNode();
   GlobalKey<FormState> loginForm = GlobalKey<FormState>();
   GlobalKey<FormState> registerForm = GlobalKey<FormState>();
@@ -40,10 +41,40 @@ class AuthCubit extends Cubit<AuthState> {
   bool isConfirmPasswordObscure = true;
   GlobalKey<FormState> verifyCodeFormKey = GlobalKey<FormState>();
   List<String> code = List.filled(5, "");
+  final PageController pageController = PageController();
 
   void toggleRememberMe() {
     rememberMe = !rememberMe;
     emit(ChangeRememberMeState(rememberMe: rememberMe));
+  }
+
+  void onPageChange(int index) {
+    currentPage = index;
+    emit(ChangePageState(currentPage: currentPage));
+  }
+
+  void goToNextPage() {
+    if (currentPage < 9) {
+      currentPage++;
+      pageController.nextPage(
+        duration: const Duration(milliseconds: 300),
+        curve: Curves.easeInOut,
+      );
+    }
+    emit(ChangePageState(currentPage: currentPage));
+  }
+
+  void goToPreviousPage() {
+    if (currentPage > 1) {
+      currentPage--;
+      pageController.previousPage(
+        duration: const Duration(milliseconds: 300),
+        curve: Curves.easeInOut,
+      );
+    } else {
+      emit(CloseDietPlanState());
+    }
+    emit(ChangePageState(currentPage: currentPage));
   }
 
   void toggleTerms() {
@@ -60,6 +91,7 @@ class AuthCubit extends Cubit<AuthState> {
       "Please enter a 5-digit code".showToast();
     }
   }
+
   Future<void> register(SignUpRequest signUpRequest) async {
     if (registerForm.currentState!.validate() && isTermsAccepted) {
       final response = await createAccountUseCase.createAccount(signUpRequest);

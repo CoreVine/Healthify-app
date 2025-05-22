@@ -23,5 +23,14 @@
   "didntGetTheEmail": "Didn't get the email? ",
   "resendCode": "Resend code",
   "checkYourEmail": "Check your email",
-  "weSentAnEmail": "We sent you an email with a verification code, please enter the 5 digit code that mentioned in the email"
+  "weSentAnEmail": "We sent you an email with a verification code, please enter the 5 digit code that mentioned in the email",
+  "whereAreYouFrom": "Where are you from?",
+  "thisWillHelpUsPersonalizeTheAppForYou" : "This will help us personalize the app for you ",
+  "whatsYourGender" :"What’s your gender",
+  "justAnswerFewQuestions" : "Just answer a few quick questions so we can tailor your diet and calculate your daily health goals.",
+  "whatsYourAge" : "What’s your age?",
+  "whatsYourHeight" :"What’s your height?",
+  "whatsYourCurrentWeight" : "What’s your current weight?",
+  "whatsYourGoalWeight" : "What’s your goal weight?",
+  "whatsYourActiveLevel" : "What’s your active level?"
 }

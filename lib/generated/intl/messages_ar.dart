@@ -67,5 +67,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "welcome_message": MessageLookupByLibrary.simpleMessage(
       "مرحبًا بكم في Healthify!",
     ),
+    "whereAreYouFrom": MessageLookupByLibrary.simpleMessage(
+      "Where are you from?",
+    ),
   };
 }

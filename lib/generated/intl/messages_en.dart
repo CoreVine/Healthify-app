@@ -44,6 +44,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "joinHealthifyMe": MessageLookupByLibrary.simpleMessage(
       "Join HealthifyMe and start your journey to a healthier life alue",
     ),
+    "justAnswerFewQuestions": MessageLookupByLibrary.simpleMessage(
+      "Just answer a few quick questions so we can tailor your diet and calculate your daily health goals.",
+    ),
     "lastName": MessageLookupByLibrary.simpleMessage("Last Name"),
     "logInToContinueYourHealthJourney": MessageLookupByLibrary.simpleMessage(
       "Log in to continue your health journey",
@@ -58,12 +61,35 @@ class MessageLookup extends MessageLookupByLibrary {
     "registerNow": MessageLookupByLibrary.simpleMessage("Register Now"),
     "rememberMe": MessageLookupByLibrary.simpleMessage("Remember me"),
     "resendCode": MessageLookupByLibrary.simpleMessage("Resend code"),
+    "thisWillHelpUsPersonalizeTheAppForYou":
+        MessageLookupByLibrary.simpleMessage(
+          "This will help us personalize the app for you ",
+        ),
     "verify": MessageLookupByLibrary.simpleMessage("Verify"),
     "weSentAnEmail": MessageLookupByLibrary.simpleMessage(
       "We sent you an email with a verification code, please enter the 5 digit code that mentioned in the email",
     ),
     "welcome_message": MessageLookupByLibrary.simpleMessage(
       "Welcome to Healthify!",
+    ),
+    "whatsYourActiveLevel": MessageLookupByLibrary.simpleMessage(
+      "What’s your active level?",
+    ),
+    "whatsYourAge": MessageLookupByLibrary.simpleMessage("What’s your age?"),
+    "whatsYourCurrentWeight": MessageLookupByLibrary.simpleMessage(
+      "What’s your current weight?",
+    ),
+    "whatsYourGender": MessageLookupByLibrary.simpleMessage(
+      "What’s your gender",
+    ),
+    "whatsYourGoalWeight": MessageLookupByLibrary.simpleMessage(
+      "What’s your goal weight?",
+    ),
+    "whatsYourHeight": MessageLookupByLibrary.simpleMessage(
+      "What’s your height?",
+    ),
+    "whereAreYouFrom": MessageLookupByLibrary.simpleMessage(
+      "Where are you from?",
     ),
   };
 }

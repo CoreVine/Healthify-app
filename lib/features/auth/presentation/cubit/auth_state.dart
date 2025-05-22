@@ -52,5 +52,14 @@ final class LoginErrorState extends AuthState {}
 final class RegisterErrorState extends AuthState {}
 final class RegisterSuccessState extends AuthState {}
 final class AuthCodeVerified extends AuthState {}
+final class CloseDietPlanState extends AuthState {}
+final class ChangePageState extends AuthState {
+  final int currentPage;
+
+  const ChangePageState({required this.currentPage});
+
+  @override
+  List<Object> get props => [currentPage];
+}
 
 

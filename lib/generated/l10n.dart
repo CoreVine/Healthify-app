@@ -254,6 +254,96 @@ class S {
       args: [],
     );
   }
+
+  /// `Where are you from?`
+  String get whereAreYouFrom {
+    return Intl.message(
+      'Where are you from?',
+      name: 'whereAreYouFrom',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `This will help us personalize the app for you `
+  String get thisWillHelpUsPersonalizeTheAppForYou {
+    return Intl.message(
+      'This will help us personalize the app for you ',
+      name: 'thisWillHelpUsPersonalizeTheAppForYou',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your gender`
+  String get whatsYourGender {
+    return Intl.message(
+      'What’s your gender',
+      name: 'whatsYourGender',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Just answer a few quick questions so we can tailor your diet and calculate your daily health goals.`
+  String get justAnswerFewQuestions {
+    return Intl.message(
+      'Just answer a few quick questions so we can tailor your diet and calculate your daily health goals.',
+      name: 'justAnswerFewQuestions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your age?`
+  String get whatsYourAge {
+    return Intl.message(
+      'What’s your age?',
+      name: 'whatsYourAge',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your height?`
+  String get whatsYourHeight {
+    return Intl.message(
+      'What’s your height?',
+      name: 'whatsYourHeight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your current weight?`
+  String get whatsYourCurrentWeight {
+    return Intl.message(
+      'What’s your current weight?',
+      name: 'whatsYourCurrentWeight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your goal weight?`
+  String get whatsYourGoalWeight {
+    return Intl.message(
+      'What’s your goal weight?',
+      name: 'whatsYourGoalWeight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `What’s your active level?`
+  String get whatsYourActiveLevel {
+    return Intl.message(
+      'What’s your active level?',
+      name: 'whatsYourActiveLevel',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
