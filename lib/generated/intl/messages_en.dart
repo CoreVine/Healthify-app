@@ -22,9 +22,28 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "a_concise_overview_of_the_importance_of":
+        MessageLookupByLibrary.simpleMessage(
+          "A concise overview of the importance of",
+        ),
+    "all_this_for_you": MessageLookupByLibrary.simpleMessage(
+      "All this for you, for healthy life",
+    ),
+    "calories": MessageLookupByLibrary.simpleMessage("Calories"),
+    "carbs": MessageLookupByLibrary.simpleMessage("Carbs"),
+    "categories": MessageLookupByLibrary.simpleMessage("Categories"),
+    "fats": MessageLookupByLibrary.simpleMessage("Fats"),
+    "fiber": MessageLookupByLibrary.simpleMessage("Fiber"),
+    "food": MessageLookupByLibrary.simpleMessage("Food"),
+    "in_a_balanced_diet": MessageLookupByLibrary.simpleMessage(
+      "in a balanced diet.",
+    ),
+    "items_per_100g": MessageLookupByLibrary.simpleMessage("Items per 100g"),
     "login": MessageLookupByLibrary.simpleMessage("Login"),
     "onboarding": MessageLookupByLibrary.simpleMessage("Onboarding"),
+    "protein": MessageLookupByLibrary.simpleMessage("Protein"),
     "register": MessageLookupByLibrary.simpleMessage("Register"),
+    "vitamins": MessageLookupByLibrary.simpleMessage("Vitamins"),
     "welcome_message": MessageLookupByLibrary.simpleMessage(
       "Welcome to Healthify!",
     ),

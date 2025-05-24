@@ -22,9 +22,28 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "a_concise_overview_of_the_importance_of":
+        MessageLookupByLibrary.simpleMessage("نظرة عامة موجزة عن أهمية"),
+    "all_this_for_you": MessageLookupByLibrary.simpleMessage(
+      "كل هذا من أجلك, من أجل حياة صحية",
+    ),
+    "calories": MessageLookupByLibrary.simpleMessage("السعرات الحرارية"),
+    "carbs": MessageLookupByLibrary.simpleMessage("الكربوهيدرات"),
+    "categories": MessageLookupByLibrary.simpleMessage("تصنيفات"),
+    "fats": MessageLookupByLibrary.simpleMessage("دهون"),
+    "fiber": MessageLookupByLibrary.simpleMessage("الياف"),
+    "food": MessageLookupByLibrary.simpleMessage("الطعام"),
+    "in_a_balanced_diet": MessageLookupByLibrary.simpleMessage(
+      "في نظام غذائي متوازن.",
+    ),
+    "items_per_100g": MessageLookupByLibrary.simpleMessage(
+      "عدد الوحدات لكل 100 جرام",
+    ),
     "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "onboarding": MessageLookupByLibrary.simpleMessage("التمهيد"),
+    "protein": MessageLookupByLibrary.simpleMessage("بروتين"),
     "register": MessageLookupByLibrary.simpleMessage("تسجيل"),
+    "vitamins": MessageLookupByLibrary.simpleMessage("فيتامينات"),
     "welcome_message": MessageLookupByLibrary.simpleMessage(
       "مرحبًا بكم في Healthify!",
     ),

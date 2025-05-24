@@ -55,11 +55,71 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `Welcome to Healthify!`
-  String get welcome_message {
+  /// `A concise overview of the importance of`
+  String get a_concise_overview_of_the_importance_of {
     return Intl.message(
-      'Welcome to Healthify!',
-      name: 'welcome_message',
+      'A concise overview of the importance of',
+      name: 'a_concise_overview_of_the_importance_of',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All this for you, for healthy life`
+  String get all_this_for_you {
+    return Intl.message(
+      'All this for you, for healthy life',
+      name: 'all_this_for_you',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Calories`
+  String get calories {
+    return Intl.message('Calories', name: 'calories', desc: '', args: []);
+  }
+
+  /// `Carbs`
+  String get carbs {
+    return Intl.message('Carbs', name: 'carbs', desc: '', args: []);
+  }
+
+  /// `Categories`
+  String get categories {
+    return Intl.message('Categories', name: 'categories', desc: '', args: []);
+  }
+
+  /// `Fats`
+  String get fats {
+    return Intl.message('Fats', name: 'fats', desc: '', args: []);
+  }
+
+  /// `Fiber`
+  String get fiber {
+    return Intl.message('Fiber', name: 'fiber', desc: '', args: []);
+  }
+
+  /// `Food`
+  String get food {
+    return Intl.message('Food', name: 'food', desc: '', args: []);
+  }
+
+  /// `in a balanced diet.`
+  String get in_a_balanced_diet {
+    return Intl.message(
+      'in a balanced diet.',
+      name: 'in_a_balanced_diet',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Items per 100g`
+  String get items_per_100g {
+    return Intl.message(
+      'Items per 100g',
+      name: 'items_per_100g',
       desc: '',
       args: [],
     );
@@ -70,14 +130,34 @@ class S {
     return Intl.message('Login', name: 'login', desc: '', args: []);
   }
 
+  /// `Onboarding`
+  String get onboarding {
+    return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
+  }
+
+  /// `Protein`
+  String get protein {
+    return Intl.message('Protein', name: 'protein', desc: '', args: []);
+  }
+
   /// `Register`
   String get register {
     return Intl.message('Register', name: 'register', desc: '', args: []);
   }
 
-  /// `Onboarding`
-  String get onboarding {
-    return Intl.message('Onboarding', name: 'onboarding', desc: '', args: []);
+  /// `Vitamins`
+  String get vitamins {
+    return Intl.message('Vitamins', name: 'vitamins', desc: '', args: []);
+  }
+
+  /// `Welcome to Healthify!`
+  String get welcome_message {
+    return Intl.message(
+      'Welcome to Healthify!',
+      name: 'welcome_message',
+      desc: '',
+      args: [],
+    );
   }
 }
 

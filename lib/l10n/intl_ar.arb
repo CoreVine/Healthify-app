@@ -1,6 +1,18 @@
 {
-  "welcome_message": "مرحبًا بكم في Healthify!",
+  "a_concise_overview_of_the_importance_of": "نظرة عامة موجزة عن أهمية",
+  "all_this_for_you": "كل هذا من أجلك, من أجل حياة صحية",
+  "calories": "السعرات الحرارية",
+  "carbs": "الكربوهيدرات",
+  "categories": "تصنيفات",
+  "fats": "دهون",
+  "fiber": "الياف",
+  "food": "الطعام",
+  "in_a_balanced_diet": "في نظام غذائي متوازن.",
+  "items_per_100g": "عدد الوحدات لكل 100 جرام",
   "login": "تسجيل الدخول",
+  "onboarding": "التمهيد",
+  "protein": "بروتين",
   "register": "تسجيل",
-  "onboarding": "التمهيد"
+  "vitamins": "فيتامينات",
+  "welcome_message": "مرحبًا بكم في Healthify!"
 }

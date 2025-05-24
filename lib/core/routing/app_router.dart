@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:healthify_app/core/routing/routes.dart';
 import 'package:healthify_app/features/auth/presentation/pages/login_screen.dart';
 import 'package:healthify_app/features/auth/presentation/pages/register_screen.dart';
+import 'package:healthify_app/features/food/presentation/pages/food_category_page.dart';
+import 'package:healthify_app/features/food/presentation/pages/food_page.dart';
 import 'package:healthify_app/features/home/presentation/pages/home_screen.dart';
 import 'package:healthify_app/features/onBoarding/presentation/pages/onboarding_screen.dart';
 
@@ -18,6 +20,14 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const RegisterScreen());
       case Routes.homeScreen:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
+      case Routes.foodScreen:
+        return MaterialPageRoute(builder: (_) => const FoodPage());
+      case Routes.foodCategoryScreen:
+        return MaterialPageRoute(
+          builder: (_) => FoodCategoryPage(
+            categoryName: settings.arguments as String,
+          ),
+        );
 
       // case Routes.loginScreen:
       //   return MaterialPageRoute(builder: (_) => const LoginScreen());
